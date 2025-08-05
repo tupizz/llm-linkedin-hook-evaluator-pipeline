@@ -1,0 +1,2295 @@
+{
+  "timestamp": "2025-08-05T18:00:01.969Z",
+  "exportVersion": "1.0",
+  "metadata": {
+    "postIdea": "Agile is about adaptability, not endless meetings",
+    "industry": "",
+    "targetAudience": "beginner",
+    "contentType": "tip",
+    "selectedModels": [
+      "gpt4o",
+      "claude-3-5-sonnet",
+      "gpt4o-mini",
+      "o4-mini",
+      "gpt-4.1",
+      "claude-3-5-haiku"
+    ],
+    "analysisOptions": [
+      "semantic",
+      "psychological",
+      "engagement"
+    ]
+  },
+  "results": {
+    "gpt4o": {
+      "model": "GPT-4o",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Agile Misunderstood: It's Not Just About Meetings!",
+          "wordCount": 7,
+          "totalScore": 7.1,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook challenges a common misconception about Agile, which is likely to capture attention and spark curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'Misunderstood' can trigger curiosity and a desire to learn more, but it lacks a strong emotional punch.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility; it lacks references to expertise or experience.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of Agile is relevant to a wide range of professionals, especially beginners interested in project management methodologies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook does not explicitly promise actionable insights or valuable information, focusing more on correcting a misconception.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing by challenging a common misconception",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to expertise or experience to enhance credibility.",
+              "Consider adding a promise of actionable insights to increase value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to expertise or experience to enhance credibility.",
+            "Consider adding a promise of actionable insights to increase value."
+          ]
+        },
+        {
+          "hook": "85% of Agile Experts Say: Adapt, Don’t Overmeet",
+          "wordCount": 8,
+          "totalScore": 7.65,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook uses a statistic and a directive, which captures attention and creates curiosity about what Agile experts recommend.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a slight surprise by challenging common practices like overmeeting, but lacks strong emotional language.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 8,
+                "reasoning": "The mention of '85% of Agile Experts' provides strong social proof and authority, leveraging expert opinion.",
+                "confidence": 9
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The content is relevant to professionals interested in Agile practices, though it may not directly address beginners.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook suggests a shift in behavior but lacks a clear promise of actionable steps or insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Strong use of social proof with expert statistics.",
+              "Clear and concise messaging."
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact.",
+              "Does not explicitly promise actionable insights."
+            ],
+            "recommendations": [
+              "Include a hint of actionable advice to enhance actionability promise.",
+              "Use more emotionally charged language to increase emotional impact."
+            ],
+            "confidence": 9
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 90,
+          "recommendations": [
+            "Include a hint of actionable advice to enhance actionability promise.",
+            "Use more emotionally charged language to increase emotional impact."
+          ]
+        },
+        {
+          "hook": "Surprising Truth: Agile Thrives on Flexibility, Not Meetings",
+          "wordCount": 8,
+          "totalScore": 6.85,
+          "basicScore": 5.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Surprising Truth' effectively captures attention by suggesting new insights, and the contrast between 'Agile' and 'Meetings' piques curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and surprise by challenging a common perception about Agile methodologies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand the main point quickly.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to professionals interested in Agile, it may not directly appeal to all LinkedIn users, especially beginners.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook does not explicitly promise actionable insights or steps, focusing more on a conceptual revelation.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Captures attention with a surprising statement",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal experience or expert opinion to enhance credibility",
+              "Suggest a specific benefit or insight to increase actionability"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal experience or expert opinion to enhance credibility",
+            "Suggest a specific benefit or insight to increase actionability"
+          ]
+        },
+        {
+          "hook": "Are Meetings Killing Your Agile Process? Discover Why",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 6.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook poses a provocative question that challenges a common practice, which is likely to capture attention and spark curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a slight sense of fear by suggesting that meetings might be detrimental to an agile process.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals interested in agile methodologies, which is a common interest area on LinkedIn.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook suggests a discovery but does not explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Provocative question that captures attention",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to an authority or personal experience to enhance credibility.",
+              "Explicitly mention actionable insights or solutions to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an authority or personal experience to enhance credibility.",
+            "Explicitly mention actionable insights or solutions to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Unlock True Agile: Prioritize Adaptability Over Meetings",
+          "wordCount": 7,
+          "totalScore": 6.4,
+          "basicScore": 5.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The phrase 'Unlock True Agile' is intriguing and suggests a new perspective, which can capture attention. However, it lacks a strong, immediate hook like a personal story or dramatic claim.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook suggests a shift in mindset, which can evoke curiosity, but it doesn't strongly trigger emotions like excitement or fear.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility. It lacks references to experience or expertise that could enhance its persuasive power.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the idea of prioritizing adaptability over meetings.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The concept of Agile is relevant to many professionals, especially beginners interested in modern work methodologies. However, it could be more tailored to specific roles or industries.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a valuable shift in focus, it doesn't explicitly promise actionable insights or steps to achieve this adaptability.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to professionals interested in Agile methodologies"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority",
+              "Doesn't promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal story or dramatic claim to enhance attention-grabbing potential.",
+              "Add a reference to experience or expertise to build credibility.",
+              "Provide a hint of actionable steps or insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal story or dramatic claim to enhance attention-grabbing potential.",
+            "Add a reference to experience or expertise to build credibility.",
+            "Provide a hint of actionable steps or insights to increase perceived value."
+          ]
+        }
+      ],
+      "averageScore": 7.1,
+      "basicAverageScore": 6.2,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Attention-grabbing by challenging a common misconception",
+          "Clear and concise messaging",
+          "Strong use of social proof with expert statistics."
+        ],
+        "weaknesses": [
+          "Lacks social proof or authority",
+          "Does not promise actionable insights",
+          "Lacks strong emotional impact."
+        ]
+      },
+      "executionTime": 2938,
+      "tokensUsed": 284,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8.2
+      }
+    },
+    "claude-3-5-sonnet": {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "anthropic",
+      "hooks": [
+        {
+          "hook": "I cut 70% of meetings - our agility improved",
+          "wordCount": 9,
+          "totalScore": 7.1,
+          "basicScore": 7.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is concise and intriguing, immediately capturing attention by suggesting a significant change with a positive outcome.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and surprise by implying a drastic reduction in meetings led to improved agility, which is counterintuitive.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as a specific role or company context.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to professionals interested in productivity, it may not directly address beginners' specific needs or contexts.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook implies a positive outcome but lacks a clear promise of actionable insights or steps to achieve similar results.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Concise and attention-grabbing",
+              "Triggers curiosity and surprise"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a brief mention of the context or role for credibility.",
+              "Suggest a hint of actionable steps or insights to increase value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a brief mention of the context or role for credibility.",
+            "Suggest a hint of actionable steps or insights to increase value."
+          ]
+        },
+        {
+          "hook": "Stop doing agile wrong: Less meetings, more results",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and challenges a common practice, which can capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "It triggers curiosity and a bit of excitement by suggesting a more efficient way to do something familiar.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals interested in agile methodologies, especially beginners looking to improve efficiency.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "It implies actionable insights by suggesting a shift in practice, but lacks specific details on what will be provided.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to professionals interested in agile methodologies"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Limited promise of specific actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal experience or expert endorsement to enhance credibility.",
+              "Provide a hint of specific actionable insights to increase the promise of value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal experience or expert endorsement to enhance credibility.",
+            "Provide a hint of specific actionable insights to increase the promise of value."
+          ]
+        },
+        {
+          "hook": "The uncomfortable truth about agile most leaders ignore",
+          "wordCount": 8,
+          "totalScore": 7.05,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'uncomfortable truth' is intriguing and suggests a revelation that is often overlooked, which can capture attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a slight sense of fear by implying that leaders might be ignoring something important.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert validation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand the focus on agile and leadership.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to leaders and those interested in agile, it may not directly address beginners who might need more context.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a revelation but does not explicitly promise actionable insights or solutions.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Intriguing and attention-grabbing",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of personal experience or authority to enhance credibility.",
+              "Consider adding a promise of specific insights or solutions to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of personal experience or authority to enhance credibility.",
+            "Consider adding a promise of specific insights or solutions to increase actionability."
+          ]
+        },
+        {
+          "hook": "Your daily standups are killing team productivity",
+          "wordCount": 7,
+          "totalScore": 7.1,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and provocative, suggesting a common practice might be harmful, which captures attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "It triggers curiosity and concern by implying a negative impact on productivity, which is a key concern for professionals.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook lacks authority or credibility indicators, such as personal experience or expert opinion.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand the main point quickly.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals who participate in or manage team meetings, a common scenario in many industries.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a problem, it does not explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing and provocative",
+              "Clear and concise messaging",
+              "Relevant to a broad professional audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal anecdote or expert opinion to enhance credibility.",
+              "Suggest a solution or insight to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal anecdote or expert opinion to enhance credibility.",
+            "Suggest a solution or insight to increase actionability."
+          ]
+        },
+        {
+          "hook": "Why I cancelled every recurring meeting this week",
+          "wordCount": 8,
+          "totalScore": 6.8,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is intriguing and prompts curiosity about the reasons behind canceling all meetings, which is an uncommon action.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and a mild surprise, as canceling all meetings is a bold move that could have significant implications.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks any reference to authority or credibility, such as a position or experience that would lend weight to the decision.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, immediately conveying the main action without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While the topic of meetings is relevant to professionals, the hook does not specify a particular benefit or insight for the audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook does not explicitly promise actionable insights or valuable information, leaving the potential benefits unclear.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Intriguing and curiosity-inducing",
+              "Clear and concise"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of the outcome or benefit of canceling meetings to increase actionability.",
+              "Add a reference to personal experience or authority to enhance credibility."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of the outcome or benefit of canceling meetings to increase actionability.",
+            "Add a reference to personal experience or authority to enhance credibility."
+          ]
+        }
+      ],
+      "averageScore": 7.1,
+      "basicAverageScore": 6.7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Concise and attention-grabbing",
+          "Triggers curiosity and surprise",
+          "Clear and concise message"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof",
+          "Does not promise actionable insights",
+          "Lacks social proof or authority"
+        ]
+      },
+      "executionTime": 3620,
+      "tokensUsed": 737,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "gpt4o-mini": {
+      "model": "GPT-4o Mini",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Stop wasting time: Agile isn't about endless meetings!",
+          "wordCount": 8,
+          "totalScore": 7.1,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and challenges a common misconception about Agile, which can capture attention and provoke curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'Stop wasting time' can trigger a sense of urgency and frustration, appealing to those who feel overwhelmed by meetings.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook lacks any reference to authority or credibility, such as personal experience or industry expertise.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the point without unnecessary words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of Agile and meetings is relevant to professionals, especially beginners looking to understand Agile methodologies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it hints at a misconception, it doesn't explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Direct and attention-grabbing",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not explicitly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal experience or statistic to enhance credibility.",
+              "Add a hint of actionable advice or a solution to increase value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal experience or statistic to enhance credibility.",
+            "Add a hint of actionable advice or a solution to increase value."
+          ]
+        },
+        {
+          "hook": "Did you know 70% of Agile teams struggle with adaptability?",
+          "wordCount": 10,
+          "totalScore": 6.5,
+          "basicScore": 7.4,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The statistic about 70% of Agile teams struggling is intriguing and likely to capture attention, especially for those interested in Agile methodologies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook generates curiosity and a mild sense of concern, but it lacks a strong emotional punch.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The use of a statistic provides some level of authority, but it lacks a source or context to enhance credibility.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals interested in Agile, which is a common methodology in various industries.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 4,
+                "reasoning": "The hook does not promise actionable insights or solutions to the problem it presents.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to Agile professionals"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No actionable promise or solution offered"
+            ],
+            "recommendations": [
+              "Include a source for the statistic to enhance credibility.",
+              "Add a hint of a solution or insight to increase actionability.",
+              "Consider incorporating a more emotional element to strengthen impact."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a source for the statistic to enhance credibility.",
+            "Add a hint of a solution or insight to increase actionability.",
+            "Consider incorporating a more emotional element to strengthen impact."
+          ]
+        },
+        {
+          "hook": "Unlock success: Embrace adaptability over meetings in Agile!",
+          "wordCount": 8,
+          "totalScore": 6.35,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The phrase 'Unlock success' is intriguing and the contrast between 'adaptability' and 'meetings' in Agile piques curiosity.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook suggests a shift in mindset, which can evoke curiosity and mild excitement, but lacks a strong emotional punch.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not reference any authority or credibility, making it weaker in terms of social proof.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is concise and clear, effectively communicating the idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The concept of adaptability in Agile is relevant to professionals interested in Agile methodologies, though it may not be specific to beginners.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a beneficial approach, it lacks a clear promise of actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Concise and clear message",
+              "Intriguing contrast between adaptability and meetings"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority reference",
+              "Limited actionable promise"
+            ],
+            "recommendations": [
+              "Include a reference to authority or success story to enhance credibility",
+              "Add a specific actionable insight or promise to increase value",
+              "Consider using a more emotionally impactful phrase to strengthen engagement"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to authority or success story to enhance credibility",
+            "Add a specific actionable insight or promise to increase value",
+            "Consider using a more emotionally impactful phrase to strengthen engagement"
+          ]
+        },
+        {
+          "hook": "Transform your workflow: Ditch the meetings for real results!",
+          "wordCount": 9,
+          "totalScore": 6.8,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and challenges a common business practice, which can capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "It evokes curiosity and a sense of excitement about achieving 'real results' by ditching meetings.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook lacks authority or credibility references, such as expert opinions or data.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "The concept of improving workflow is relevant, but it may not directly address specific beginner needs.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a promise of results but lacks specific actionable insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing and curiosity-inducing",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks social proof and authority",
+              "Limited actionable promise"
+            ],
+            "recommendations": [
+              "Incorporate a statistic or expert opinion to enhance credibility.",
+              "Provide a hint of actionable steps to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a statistic or expert opinion to enhance credibility.",
+            "Provide a hint of actionable steps to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Feeling overwhelmed? Agile can be your solution—here's how!",
+          "wordCount": 8,
+          "totalScore": 6.4,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook uses a common pain point ('Feeling overwhelmed?') to capture attention, but lacks a strong unique element to stand out.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "It addresses a relatable feeling of being overwhelmed, which can trigger curiosity, but the emotional impact is moderate.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook does not leverage any authority or credibility, missing an opportunity to enhance trust.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the potential solution without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic of Agile is relevant to a broad professional audience, but may not specifically target beginners.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook suggests a solution but lacks specificity on what actionable insights will be provided.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Addresses a common pain point",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Moderate emotional impact",
+              "Unclear on specific actionable insights"
+            ],
+            "recommendations": [
+              "Incorporate a statistic or expert quote to enhance credibility.",
+              "Specify what aspects of Agile will be covered to increase actionability.",
+              "Consider adding a unique element to make the hook more attention-grabbing."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a statistic or expert quote to enhance credibility.",
+            "Specify what aspects of Agile will be covered to increase actionability.",
+            "Consider adding a unique element to make the hook more attention-grabbing."
+          ]
+        }
+      ],
+      "averageScore": 6.6,
+      "basicAverageScore": 6.4,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Direct and attention-grabbing",
+          "Clear and concise messaging",
+          "Clear and concise message"
+        ],
+        "weaknesses": [
+          "Lacks social proof or authority",
+          "Does not explicitly promise actionable insights",
+          "Lacks strong emotional impact"
+        ]
+      },
+      "executionTime": 1994,
+      "tokensUsed": 286,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "o4-mini": {
+      "model": "O4 Mini",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Stop wasting 75% of meeting time—embrace real Agile",
+          "wordCount": 8,
+          "totalScore": 6.9,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook captures attention by addressing a common pain point (wasting time in meetings) and suggests a solution (real Agile).",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency by highlighting a significant percentage of wasted time.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, effectively communicating the problem and hinting at a solution.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "The hook is relevant to professionals interested in productivity and Agile methodologies, but may not directly appeal to beginners unfamiliar with Agile.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a solution, the hook does not explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a common pain point",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a credibility element, such as a personal success story or expert endorsement.",
+              "Explicitly mention actionable steps or benefits to enhance the promise of value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a credibility element, such as a personal success story or expert endorsement.",
+            "Explicitly mention actionable steps or benefits to enhance the promise of value."
+          ]
+        },
+        {
+          "hook": "Why 90% of Agile meetings kill your team's energy",
+          "wordCount": 9,
+          "totalScore": 6.85,
+          "basicScore": 7.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is provocative and uses a high percentage to capture attention, creating curiosity about why Agile meetings are detrimental.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a bit of fear by suggesting a common practice might be harmful.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks authority or credibility indicators, such as expert opinions or data sources.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to professionals using Agile, it may not resonate with all LinkedIn users, especially beginners.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook does not explicitly promise actionable insights or solutions to the problem it presents.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Provocative and attention-grabbing",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a statistic or expert opinion to enhance credibility.",
+              "Suggest a solution or insight to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or expert opinion to enhance credibility.",
+            "Suggest a solution or insight to increase actionability."
+          ]
+        },
+        {
+          "hook": "I ditched daily standups—productivity soared 30% in weeks",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 7.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is concise and makes a bold claim about productivity improvement, which is likely to capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and excitement by suggesting a significant productivity boost, but lacks a strong emotional element like surprise or fear.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as a specific role or company name, which would enhance its social proof.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of productivity is broadly relevant to professionals, especially beginners looking to improve their work habits.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While the hook implies a method for improving productivity, it doesn't explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Concise and clear message",
+              "Captures attention with a bold claim"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a brief mention of a role or company for credibility",
+              "Suggest a specific method or step to enhance actionability"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a brief mention of a role or company for credibility",
+            "Suggest a specific method or step to enhance actionability"
+          ]
+        },
+        {
+          "hook": "Urgent: Kill endless meetings for adaptable Agile success today",
+          "wordCount": 9,
+          "totalScore": 6.3,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The use of 'Urgent' and 'Kill endless meetings' captures attention effectively, creating curiosity about the solution offered.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers emotions of urgency and frustration with meetings, appealing to those seeking efficiency.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook lacks authority or credibility indicators, such as expert opinions or proven results.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 6,
+                "reasoning": "The message is concise but slightly vague, as 'adaptable Agile success' could be clearer for beginners.",
+                "confidence": 8
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 5,
+                "reasoning": "While relevant to professionals, the term 'Agile' may not be immediately clear to beginners without context.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The promise of 'adaptable Agile success' suggests actionable insights but lacks specificity.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with urgency",
+              "Emotionally impactful by addressing common frustration"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Clarity could be improved for beginners"
+            ],
+            "recommendations": [
+              "Include a credible source or authority to enhance social proof.",
+              "Clarify what 'adaptable Agile success' entails for beginners.",
+              "Provide a specific actionable insight or step to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a credible source or authority to enhance social proof.",
+            "Clarify what 'adaptable Agile success' entails for beginners.",
+            "Provide a specific actionable insight or step to increase actionability."
+          ]
+        },
+        {
+          "hook": "Stop the meeting madness—embrace agile adaptability now",
+          "wordCount": 7,
+          "totalScore": 6.8,
+          "basicScore": 5.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Stop the meeting madness' is bold and likely to capture attention, especially for professionals overwhelmed by meetings.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook evokes a sense of urgency and relief by addressing a common frustration with meetings, appealing to emotions of stress and hope for change.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as expert opinions or data-backed claims.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and straightforward, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to professionals dealing with meetings, it may not specifically target beginners who might not fully grasp 'agile adaptability.'",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a shift to 'agile adaptability' but lacks a clear promise of actionable steps or insights.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing opening",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited actionable promise"
+            ],
+            "recommendations": [
+              "Include a statistic or expert quote to enhance credibility.",
+              "Clarify what 'agile adaptability' entails for beginners.",
+              "Offer a hint of actionable steps or benefits to increase engagement."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or expert quote to enhance credibility.",
+            "Clarify what 'agile adaptability' entails for beginners.",
+            "Offer a hint of actionable steps or benefits to increase engagement."
+          ]
+        }
+      ],
+      "averageScore": 6.9,
+      "basicAverageScore": 6.7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Captures attention with a common pain point",
+          "Clear and concise message",
+          "Provocative and attention-grabbing"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof",
+          "Does not clearly promise actionable insights",
+          "Lacks social proof or authority"
+        ]
+      },
+      "executionTime": 17645,
+      "tokensUsed": 1792,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "gpt-4.1": {
+      "model": "GPT-4.1",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Why 73% of agile teams fail—it's not meetings",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 7.8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook captures attention by presenting a surprising statistic and challenging a common assumption about agile teams.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and surprise by suggesting a counterintuitive reason for failure, which can provoke interest.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The use of a specific statistic adds some level of authority, but lacks a direct source or authority figure to enhance credibility.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals interested in agile methodologies, appealing to a broad LinkedIn audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests a problem, it does not explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a surprising statistic",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks explicit promise of actionable insights",
+              "Limited social proof without a direct source"
+            ],
+            "recommendations": [
+              "Include a source or authority to enhance credibility",
+              "Suggest a potential solution or insight to increase actionability"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a source or authority to enhance credibility",
+            "Suggest a potential solution or insight to increase actionability"
+          ]
+        },
+        {
+          "hook": "Stop wasting hours: Agile's real secret is flexibility",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook captures attention by suggesting a secret to Agile, a popular methodology, and implies a time-saving benefit.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'Stop wasting hours' triggers a sense of urgency and curiosity about the secret of Agile.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the core idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "Agile is a widely recognized concept, making it relevant to a broad professional audience, including beginners.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it hints at valuable insights, it doesn't explicitly promise actionable steps or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing and concise",
+              "Relevant to a broad audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal experience or expert opinion to enhance credibility.",
+              "Explicitly mention a benefit or actionable insight to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal experience or expert opinion to enhance credibility.",
+            "Explicitly mention a benefit or actionable insight to increase actionability."
+          ]
+        },
+        {
+          "hook": "Agile success isn’t about more meetings—here’s why",
+          "wordCount": 7,
+          "totalScore": 6.4,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention by challenging a common misconception about Agile, which can intrigue readers.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "It evokes curiosity by suggesting a counterintuitive perspective, but lacks strong emotional triggers.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or credibility; it lacks references to experts or data.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic is relevant to professionals interested in Agile methodologies, especially beginners.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it hints at valuable insights, it does not explicitly promise actionable steps or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Challenges a common misconception"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority"
+            ],
+            "recommendations": [
+              "Include a reference to an expert or study to enhance credibility.",
+              "Add a promise of actionable insights to increase value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an expert or study to enhance credibility.",
+            "Add a promise of actionable insights to increase value."
+          ]
+        },
+        {
+          "hook": "I learned agile the hard way—don’t repeat my mistake",
+          "wordCount": 9,
+          "totalScore": 7.3,
+          "basicScore": 7.2,
+          "explanation": "Strengths: optimal length, strong emotional appeal, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook captures attention by implying a personal story and a lesson learned, which creates curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'the hard way' suggests a struggle or failure, triggering curiosity and empathy.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, relying solely on personal experience.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "Agile is a relevant topic for beginners in many industries, making the hook applicable to the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook implies a lesson learned but does not explicitly promise actionable insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a personal story",
+              "Clear and concise message",
+              "Relevant topic for beginners"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of the lesson or insight to increase actionability",
+              "Add a credibility element to enhance social proof"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of the lesson or insight to increase actionability",
+            "Add a credibility element to enhance social proof"
+          ]
+        },
+        {
+          "hook": "Unlock agility in 2024: Adapt faster, not longer",
+          "wordCount": 8,
+          "totalScore": 6.5,
+          "basicScore": 6.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The phrase 'Unlock agility in 2024' is intriguing and suggests a timely and relevant topic, but it lacks a strong hook to immediately capture attention.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook suggests a positive change ('Adapt faster, not longer'), which can evoke curiosity and excitement, but it doesn't strongly trigger emotional responses.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 3,
+                "reasoning": "The hook does not leverage any authority or credibility. It lacks references to expertise or validation from credible sources.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand. It effectively communicates the idea in a brief manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The concept of agility and adaptation is relevant to a professional audience, but it may not be specifically tailored to beginners.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook implies a promise of actionable insights ('Adapt faster'), but it lacks specificity on what actions or insights will be provided.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Timely and relevant topic"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority",
+              "Vague promise of actionability"
+            ],
+            "recommendations": [
+              "Incorporate a specific example or statistic to enhance attention-grabbing potential.",
+              "Include a reference to expertise or authority to improve social proof.",
+              "Clarify the actionable insights or benefits to strengthen the promise."
+            ],
+            "confidence": 3
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 30,
+          "recommendations": [
+            "Incorporate a specific example or statistic to enhance attention-grabbing potential.",
+            "Include a reference to expertise or authority to improve social proof.",
+            "Clarify the actionable insights or benefits to strengthen the promise."
+          ]
+        }
+      ],
+      "averageScore": 7,
+      "basicAverageScore": 6.7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Captures attention with a surprising statistic",
+          "Clear and concise messaging",
+          "Attention-grabbing and concise"
+        ],
+        "weaknesses": [
+          "Lacks explicit promise of actionable insights",
+          "Limited social proof without a direct source",
+          "Lacks social proof"
+        ]
+      },
+      "executionTime": 2298,
+      "tokensUsed": 319,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 7
+      }
+    },
+    "claude-3-5-haiku": {
+      "model": "Claude 3.5 Haiku",
+      "provider": "anthropic",
+      "hooks": [
+        {
+          "hook": "3 Shocking Truths About Agile That Managers Never Tell You",
+          "wordCount": 10,
+          "totalScore": 7.1,
+          "basicScore": 7.4,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase '3 Shocking Truths' is designed to capture attention and create curiosity, as it suggests hidden or surprising information.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The use of 'Shocking Truths' triggers curiosity and a sense of intrigue, though it could be more emotionally charged.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert validation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the promise of revealing truths about Agile.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While Agile is a relevant topic, the hook could be more tailored to the specific interests of beginners in the industry.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests valuable insights but does not explicitly promise actionable steps or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing and curiosity-inducing",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority",
+              "Could better promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to authority or experience to enhance credibility.",
+              "Explicitly mention actionable insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to authority or experience to enhance credibility.",
+            "Explicitly mention actionable insights to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Stop Wasting Time: Agile Is Your Secret Productivity Weapon",
+          "wordCount": 9,
+          "totalScore": 6.9,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Stop Wasting Time' is direct and commands attention, while 'Agile Is Your Secret Productivity Weapon' creates curiosity about how Agile can be a hidden advantage.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency, but lacks a strong emotional pull such as fear or excitement.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or credibility; it lacks references to experts or proven results.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the core idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While Agile is a relevant topic, the hook does not specify how it applies to the beginner audience on LinkedIn.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a benefit but does not explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing opening",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited emotional impact",
+              "Unclear actionability"
+            ],
+            "recommendations": [
+              "Include a reference to a credible source or expert to enhance authority.",
+              "Add a specific benefit or outcome to increase actionability.",
+              "Consider incorporating a stronger emotional trigger to enhance impact."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a credible source or expert to enhance authority.",
+            "Add a specific benefit or outcome to increase actionability.",
+            "Consider incorporating a stronger emotional trigger to enhance impact."
+          ]
+        },
+        {
+          "hook": "Most Teams Fail Agile. Here's How You'll Actually Succeed",
+          "wordCount": 9,
+          "totalScore": 7.5,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and uses a strong statement about failure and success, which captures attention and creates curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The mention of failure and success triggers curiosity and a mild sense of urgency, but lacks a strong emotional punch.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook does not leverage any authority or credibility; it lacks references to expertise or experience.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of Agile is relevant to many professionals, especially beginners looking to succeed in team environments.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook promises insights on how to succeed, but does not specify actionable steps or details.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant topic for professionals"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Could have stronger emotional impact"
+            ],
+            "recommendations": [
+              "Include a reference to expertise or experience to enhance credibility.",
+              "Add a more specific promise of actionable steps to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to expertise or experience to enhance credibility.",
+            "Add a more specific promise of actionable steps to increase perceived value."
+          ]
+        },
+        {
+          "hook": "I Transformed My Team's Productivity with This One Mindset",
+          "wordCount": 9,
+          "totalScore": 7.4,
+          "basicScore": 6.9,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is intriguing and suggests a significant transformation with minimal effort, which captures attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The promise of transforming productivity can evoke curiosity and excitement, though it lacks a strong emotional trigger.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks specific authority or credibility indicators, such as personal achievements or well-known affiliations.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand and digest quickly.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of productivity is highly relevant to a professional audience, especially beginners looking to improve.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests a mindset change, it doesn't explicitly promise actionable steps or insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to professional audience"
+            ],
+            "weaknesses": [
+              "Lacks specific social proof",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific example or authority to enhance credibility",
+              "Suggest a clear actionable outcome to increase perceived value"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific example or authority to enhance credibility",
+            "Suggest a clear actionable outcome to increase perceived value"
+          ]
+        },
+        {
+          "hook": "Agile Isn't Meetings: The Game-Changing Approach Nobody Discusses",
+          "wordCount": 8,
+          "totalScore": 6.85,
+          "basicScore": 5.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is intriguing and challenges a common perception about Agile, which can capture attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "It evokes curiosity by suggesting a hidden aspect of Agile, but lacks a strong emotional trigger like fear or excitement.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 6,
+                "reasoning": "While relevant to professionals interested in Agile, it may not directly appeal to beginners unfamiliar with Agile concepts.",
+                "confidence": 7
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a new approach but does not explicitly promise actionable insights or steps.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Intriguing and challenges common perceptions",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks authority or credibility",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to an expert or personal experience to enhance credibility.",
+              "Suggest a specific benefit or outcome to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an expert or personal experience to enhance credibility.",
+            "Suggest a specific benefit or outcome to increase actionability."
+          ]
+        }
+      ],
+      "averageScore": 7.2,
+      "basicAverageScore": 6.6,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Attention-grabbing and curiosity-inducing",
+          "Clear and concise messaging",
+          "Attention-grabbing opening"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof or authority",
+          "Could better promise actionable insights",
+          "Lacks social proof"
+        ]
+      },
+      "executionTime": 3276,
+      "tokensUsed": 812,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    }
+  },
+  "comparison": {
+    "winner": "claude-3-5-haiku",
+    "scoreDifference": 0.1,
+    "confidenceLevel": 85,
+    "modelRankings": [
+      {
+        "modelId": "claude-3-5-haiku",
+        "score": 7.2
+      },
+      {
+        "modelId": "gpt4o",
+        "score": 7.1
+      },
+      {
+        "modelId": "claude-3-5-sonnet",
+        "score": 7.1
+      },
+      {
+        "modelId": "gpt-4.1",
+        "score": 7
+      },
+      {
+        "modelId": "o4-mini",
+        "score": 6.9
+      },
+      {
+        "modelId": "gpt4o-mini",
+        "score": 6.6
+      }
+    ],
+    "comparativeAnalysis": {
+      "winner": "gpt4o",
+      "reasoning": "Hook A directly addresses a common misconception about Agile, making it clear that Agile is not merely about meetings. This is likely to resonate well with beginners who might have this misunderstanding. Hook B, while impactful, focuses more on the action of cutting meetings rather than directly addressing the misconception. Hook A's clarity and directness give it a slight edge in effectively communicating the intended message to the target audience.",
+      "confidence": 0.85,
+      "scoreDifference": 0.25
+    }
+  },
+  "analytics": {
+    "executionTime": 31771,
+    "modelsAnalyzed": 6,
+    "modelsFailed": 0
+  },
+  "insights": {
+    "keyFindings": [
+      "Claude 3.5 Haiku won with 7.2/10",
+      "Score difference: 0.1 points",
+      "Successfully analyzed 6/6 models",
+      "Used LLM-as-a-Judge evaluation with GPT-4o",
+      "Comparative analysis confidence: 0.85/10"
+    ],
+    "recommendations": [
+      "Consider A/B testing top performing hooks",
+      "Focus on emotional triggers for better engagement",
+      "Test with your target audience",
+      "Review judge analysis for specific improvements",
+      "Hook A directly addresses a common misconception about Agile, making it clear that Agile is not merely about meetings. This is likely to resonate well with beginners who might have this misunderstanding. Hook B, while impactful, focuses more on the action of cutting meetings rather than directly addressing the misconception. Hook A's clarity and directness give it a slight edge in effectively communicating the intended message to the target audience."
+    ],
+    "performanceSummary": {
+      "highestScore": 7.2,
+      "lowestScore": 6.6,
+      "averageScore": 6.983333333333333,
+      "consistencyScore": 8.5,
+      "evaluationMethod": "LLM-as-a-Judge",
+      "judgeModel": "GPT-4o",
+      "avgJudgeConfidence": 7.866666666666667
+    }
+  },
+  "rawJudgeResponses": null,
+  "judgePrompts": null
+}

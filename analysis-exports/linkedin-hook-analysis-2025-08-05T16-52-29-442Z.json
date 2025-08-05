@@ -1,0 +1,1571 @@
+{
+  "timestamp": "2025-08-05T16:52:29.442Z",
+  "exportVersion": "1.0",
+  "metadata": {
+    "postIdea": "post about how ai is helping software engineers ",
+    "industry": "tecnology, software engineering",
+    "targetAudience": "intermediate",
+    "contentType": "tip",
+    "selectedModels": [
+      "gpt4o",
+      "gpt4-turbo",
+      "gpt4o-mini",
+      "claude-3-5-sonnet",
+      "claude-3-5-haiku",
+      "claude-3-opus"
+    ],
+    "analysisOptions": [
+      "semantic",
+      "psychological",
+      "engagement"
+    ]
+  },
+  "results": {
+    "gpt4o": {
+      "model": "GPT-4o",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Unlock 30% Efficiency Boost: AI's Secret for Engineers",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 7.4,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Unlock 30% Efficiency Boost' is compelling and suggests a significant improvement, which captures attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and excitement about AI's potential to enhance efficiency, though it could be more emotionally charged.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as endorsements or expert opinions.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the benefit of AI for engineers.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to software engineers interested in efficiency and AI, aligning well with the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests a benefit, the hook does not explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with a clear benefit",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Could promise more actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to a credible source or expert to enhance social proof.",
+              "Add a hint of actionable steps or insights to increase the promise of value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a credible source or expert to enhance social proof.",
+            "Add a hint of actionable steps or insights to increase the promise of value."
+          ]
+        },
+        {
+          "hook": "Surprising AI Tools Every Software Engineer Needs Today",
+          "wordCount": 8,
+          "totalScore": 7.5,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Surprising AI Tools' is intriguing and likely to capture attention, especially in the tech industry where innovation is key.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The use of 'Surprising' triggers curiosity, though it could be stronger with more emotional language.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks direct social proof or authority, such as endorsements or personal achievements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 9,
+                "reasoning": "Highly relevant to software engineers interested in AI tools, aligning well with the target audience.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests valuable information, it doesn't explicitly promise actionable insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with the use of 'Surprising'",
+              "Clear and concise messaging",
+              "Highly relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Could promise more actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific example or authority figure to enhance social proof.",
+              "Use more emotionally charged language to increase impact.",
+              "Explicitly mention the benefits or actions the audience can take."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific example or authority figure to enhance social proof.",
+            "Use more emotionally charged language to increase impact.",
+            "Explicitly mention the benefits or actions the audience can take."
+          ]
+        },
+        {
+          "hook": "Feeling Overwhelmed? AI Can Simplify Your Workflow",
+          "wordCount": 7,
+          "totalScore": 6.65,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention by addressing a common pain point ('Feeling Overwhelmed?') and offering a solution ('AI Can Simplify Your Workflow'). However, it lacks a unique or surprising element to make it stand out more.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook triggers curiosity and a mild sense of relief by suggesting a solution to overwhelm, but it doesn't evoke strong emotions like excitement or fear.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or credibility. It lacks references to experts, companies, or proven results that could enhance its persuasive power.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the problem and proposed solution in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to the technology and software engineering audience, addressing workflow efficiency, which is a common concern in the industry.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests a solution, it doesn't explicitly promise actionable insights or detailed steps, which could enhance its appeal.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Addresses a common pain point"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Doesn't evoke strong emotions",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Incorporate social proof by mentioning a credible source or success story.",
+              "Enhance emotional impact by using more vivid language or surprising elements.",
+              "Include a promise of specific actionable insights to increase appeal."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate social proof by mentioning a credible source or success story.",
+            "Enhance emotional impact by using more vivid language or surprising elements.",
+            "Include a promise of specific actionable insights to increase appeal."
+          ]
+        },
+        {
+          "hook": "The AI Revolution: Why Engineers Can't Ignore It",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'AI Revolution' is compelling and suggests a significant shift, which can capture attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook implies urgency and importance, which can evoke curiosity and a sense of necessity.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks direct reference to authority or credibility, such as an expert opinion or a notable figure.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and straightforward, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to engineers and professionals in technology, aligning well with the target audience.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests importance, it doesn't explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Compelling and relevant topic",
+              "Clear and concise messaging"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to an expert or study to enhance credibility.",
+              "Add a hint of actionable insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an expert or study to enhance credibility.",
+            "Add a hint of actionable insights to increase perceived value."
+          ]
+        },
+        {
+          "hook": "3 Ways AI Transforms Your Coding Experience Instantly",
+          "wordCount": 8,
+          "totalScore": 7.05,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook is somewhat attention-grabbing due to the mention of AI and its transformative impact, which is a hot topic. However, it lacks a unique angle or surprising element to make it stand out more.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook generates curiosity about AI's impact on coding but doesn't evoke strong emotions like excitement or surprise.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility. It could be improved by referencing an expert or a well-known entity in AI or coding.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to intermediate software engineers interested in AI and coding, aligning well with the target audience's interests.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook suggests actionable insights by promising to show how AI transforms coding, but it could be more explicit about the benefits or outcomes.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority"
+            ],
+            "recommendations": [
+              "Include a surprising or unique element to increase attention-grabbing potential.",
+              "Incorporate social proof by referencing an expert or study.",
+              "Highlight specific benefits or outcomes to enhance actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a surprising or unique element to increase attention-grabbing potential.",
+            "Incorporate social proof by referencing an expert or study.",
+            "Highlight specific benefits or outcomes to enhance actionability."
+          ]
+        }
+      ],
+      "averageScore": 7.2,
+      "basicAverageScore": 6.8,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Attention-grabbing with a clear benefit",
+          "Relevant to the target audience",
+          "Attention-grabbing with the use of 'Surprising'"
+        ],
+        "weaknesses": [
+          "Lacks social proof",
+          "Could promise more actionable insights",
+          "Lacks explicit social proof"
+        ]
+      },
+      "executionTime": 3343,
+      "tokensUsed": 288,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "gpt4-turbo": {
+      "model": "gpt4-turbo",
+      "hooks": [],
+      "averageScore": 0,
+      "error": "Failed to generate hooks with GPT-4 Turbo: AI_APICallError: Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo`.",
+      "strengthsAndWeaknesses": {
+        "strengths": [],
+        "weaknesses": []
+      }
+    },
+    "gpt4o-mini": {
+      "model": "GPT-4o Mini",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Unlock 80% more code efficiency with AI tools today!",
+          "wordCount": 9,
+          "totalScore": 7.3,
+          "basicScore": 7.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to its promise of a significant improvement (80% more efficiency), which is likely to pique curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The promise of increased efficiency can trigger excitement and curiosity, but lacks a strong emotional punch.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not provide any social proof or authority, such as endorsements or specific examples of success.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the benefit in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to software engineers interested in improving efficiency with AI tools.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it promises increased efficiency, it lacks specific actionable insights or steps.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Attention-grabbing promise of efficiency"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific example or testimonial to enhance credibility.",
+              "Provide a hint of actionable steps or insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific example or testimonial to enhance credibility.",
+            "Provide a hint of actionable steps or insights to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Are you ready for AI to revolutionize your coding process?",
+          "wordCount": 10,
+          "totalScore": 7.1,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook effectively captures attention by suggesting a significant change in the coding process through AI, which is a hot topic.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and excitement about AI's potential impact on coding, but lacks a strong emotional trigger.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or credibility; it lacks references to experts or proven results.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, directly addressing the potential impact of AI on coding.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to software engineers interested in AI advancements.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a revolutionary change but does not promise specific actionable insights or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a relevant and timely topic.",
+              "Clear and concise messaging."
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority.",
+              "Does not promise specific actionable insights."
+            ],
+            "recommendations": [
+              "Include a reference to an expert or case study to enhance credibility.",
+              "Suggest specific benefits or actions AI can provide in the coding process."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an expert or case study to enhance credibility.",
+            "Suggest specific benefits or actions AI can provide in the coding process."
+          ]
+        },
+        {
+          "hook": "5 surprising ways AI can supercharge your software projects!",
+          "wordCount": 9,
+          "totalScore": 7.3,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to the use of '5 surprising ways' which creates curiosity about what these ways might be.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The word 'surprising' triggers curiosity and excitement, but the emotional impact could be stronger with more dramatic language.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks social proof or authority, as it doesn't reference any specific expertise or credible source.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a brief manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to software engineering professionals interested in AI and project enhancement.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook suggests actionable insights with 'supercharge your software projects,' but could be more explicit about the benefits.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing and curiosity-inducing",
+              "Clear and concise messaging",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Could have stronger emotional impact"
+            ],
+            "recommendations": [
+              "Incorporate a reference to authority or expertise to enhance credibility",
+              "Use more dramatic language to increase emotional impact",
+              "Be more explicit about the actionable benefits"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a reference to authority or expertise to enhance credibility",
+            "Use more dramatic language to increase emotional impact",
+            "Be more explicit about the actionable benefits"
+          ]
+        },
+        {
+          "hook": "Feeling overwhelmed? Let AI simplify your engineering tasks now!",
+          "wordCount": 9,
+          "totalScore": 7.3,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook uses a direct question and offers a solution, which is likely to capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The use of 'overwhelmed' taps into a common emotional state, and the promise of simplification can evoke relief.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks any mention of authority or credibility, such as endorsements or testimonials.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the benefit in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to software engineers who may be interested in AI solutions for their tasks.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it promises simplification, it lacks specifics on how AI will achieve this, reducing perceived actionability.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Addresses a common pain point"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited actionable details"
+            ],
+            "recommendations": [
+              "Include a statistic or testimonial to enhance credibility",
+              "Provide a hint of how AI simplifies tasks to increase actionability"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or testimonial to enhance credibility",
+            "Provide a hint of how AI simplifies tasks to increase actionability"
+          ]
+        },
+        {
+          "hook": "Why every software engineer should embrace AI—before it’s too late!",
+          "wordCount": 10,
+          "totalScore": 7.1,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and uses urgency ('before it’s too late') to capture attention, creating curiosity about the consequences of not embracing AI.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'before it’s too late' introduces a sense of urgency and fear, which can trigger emotional responses.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks specific authority or credibility indicators, such as personal experience or industry validation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI is highly relevant to software engineers, especially those at an intermediate level looking to advance their skills.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests importance, it does not explicitly promise actionable insights or valuable information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with urgency",
+              "Clear and concise messaging",
+              "Highly relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not explicitly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a personal experience or statistic to enhance credibility",
+              "Suggest specific benefits or actions related to embracing AI"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a personal experience or statistic to enhance credibility",
+            "Suggest specific benefits or actions related to embracing AI"
+          ]
+        }
+      ],
+      "averageScore": 7.2,
+      "basicAverageScore": 7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Clear and concise message",
+          "Attention-grabbing promise of efficiency",
+          "Captures attention with a relevant and timely topic."
+        ],
+        "weaknesses": [
+          "Lacks social proof",
+          "Limited actionable insights",
+          "Lacks social proof or authority."
+        ]
+      },
+      "executionTime": 1600,
+      "tokensUsed": 297,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "claude-3-5-sonnet": {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "anthropic",
+      "hooks": [
+        {
+          "hook": "73% of developers save 4+ hours using AI pair programming",
+          "wordCount": 10,
+          "totalScore": 7.5,
+          "basicScore": 7.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The statistic '73% of developers save 4+ hours' is specific and intriguing, likely to capture attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and excitement about time-saving benefits, but lacks a strong emotional punch.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The use of a specific percentage provides some level of social proof, but lacks authority or source credibility.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear, concise, and easy to understand, effectively communicating the benefit.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "Highly relevant to software engineers interested in productivity and AI tools.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "Implies a benefit but lacks a direct promise of actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience",
+              "Attention-grabbing statistic"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "Limited social proof without source",
+              "No direct actionable promise"
+            ],
+            "recommendations": [
+              "Include a credible source for the statistic to enhance social proof.",
+              "Add a direct call to action or promise of insights to increase actionability.",
+              "Consider incorporating a stronger emotional element to enhance impact."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a credible source for the statistic to enhance social proof.",
+            "Add a direct call to action or promise of insights to increase actionability.",
+            "Consider incorporating a stronger emotional element to enhance impact."
+          ]
+        },
+        {
+          "hook": "I was wrong about AI replacing developers. Here's why.",
+          "wordCount": 9,
+          "totalScore": 7.4,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook captures attention by challenging a common belief about AI and developers, creating curiosity about the author's change of perspective.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and surprise by admitting a mistake, which can engage readers emotionally.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention the author's credentials or experience.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to software engineers and tech professionals interested in AI's impact on their field.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While the hook suggests valuable insights, it doesn't explicitly promise actionable information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention by challenging a common belief",
+              "Clear and concise message",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Doesn't clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a brief mention of the author's credentials to enhance authority",
+              "Consider adding a hint of actionable insights to increase perceived value"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a brief mention of the author's credentials to enhance authority",
+            "Consider adding a hint of actionable insights to increase perceived value"
+          ]
+        },
+        {
+          "hook": "The one AI tool that doubled my coding speed",
+          "wordCount": 9,
+          "totalScore": 7.4,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is intriguing as it suggests a significant improvement in productivity, which is likely to capture attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The promise of doubling coding speed can evoke excitement and curiosity, though it lacks a strong emotional trigger like fear or surprise.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, such as mentioning a well-known figure or company.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the benefit in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to software engineers who are likely interested in tools that enhance productivity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests a benefit, it doesn't explicitly promise actionable insights or steps to achieve the result.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience",
+              "Captures attention with a strong benefit"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not promise specific actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to a credible source or personal experience to enhance social proof.",
+              "Add a hint of the actionable insights or steps to increase the promise of value."
+            ],
+            "confidence": 3
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 30,
+          "recommendations": [
+            "Include a reference to a credible source or personal experience to enhance social proof.",
+            "Add a hint of the actionable insights or steps to increase the promise of value."
+          ]
+        },
+        {
+          "hook": "Stop writing tests manually - AI is changing everything",
+          "wordCount": 9,
+          "totalScore": 7.1,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and provocative, suggesting a significant shift in a common practice, which captures attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'AI is changing everything' evokes curiosity and excitement about technological advancements.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks specific authority or credibility references, such as expert opinions or data.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and straightforward, making it easy to understand.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to software engineers interested in AI and automation.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it hints at a shift in practice, it doesn't explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a bold statement",
+              "Relevant to the target audience",
+              "Clear and concise"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise specific actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to a credible source or expert to enhance authority.",
+              "Provide a hint of actionable insights to increase the promise of value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a credible source or expert to enhance authority.",
+            "Provide a hint of actionable insights to increase the promise of value."
+          ]
+        },
+        {
+          "hook": "From 6 hours to 30 minutes: AI transformed my debugging",
+          "wordCount": 10,
+          "totalScore": 8.1,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 9,
+                "reasoning": "The hook is highly attention-grabbing due to the dramatic reduction in time from 6 hours to 30 minutes, which creates curiosity about the method used.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 8,
+                "reasoning": "The hook triggers curiosity and excitement by suggesting a significant improvement in efficiency, which is appealing to the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention any credentials or endorsements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 10,
+                "reasoning": "The message is clear and concise, effectively communicating the transformation in a single sentence.",
+                "confidence": 10
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 9,
+                "reasoning": "The content is highly relevant to software engineers who are likely interested in improving debugging efficiency.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "While the hook implies a valuable transformation, it doesn't explicitly promise actionable insights or steps.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Highly attention-grabbing and relevant to the audience.",
+              "Clear and concise message."
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority.",
+              "Does not clearly promise actionable insights."
+            ],
+            "recommendations": [
+              "Include a mention of credentials or experience to enhance social proof.",
+              "Add a hint of actionable insights to increase the promise of value."
+            ],
+            "confidence": 9
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 90,
+          "recommendations": [
+            "Include a mention of credentials or experience to enhance social proof.",
+            "Add a hint of actionable insights to increase the promise of value."
+          ]
+        }
+      ],
+      "averageScore": 7.5,
+      "basicAverageScore": 7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Clear and concise message",
+          "Relevant to the target audience",
+          "Attention-grabbing statistic"
+        ],
+        "weaknesses": [
+          "Lacks strong emotional impact",
+          "Limited social proof without source",
+          "No direct actionable promise"
+        ]
+      },
+      "executionTime": 2948,
+      "tokensUsed": 754,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 7.2
+      }
+    },
+    "claude-3-5-haiku": {
+      "model": "Claude 3.5 Haiku",
+      "provider": "anthropic",
+      "hooks": [
+        {
+          "hook": "AI just replaced 40% of my coding tasks - here's how",
+          "wordCount": 11,
+          "totalScore": 8.05,
+          "basicScore": 7.4,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 9,
+                "reasoning": "The hook is highly attention-grabbing as it suggests a significant impact of AI on coding tasks, which is a hot topic in technology.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 8,
+                "reasoning": "The hook triggers curiosity and surprise by stating a large percentage of tasks replaced by AI, prompting readers to learn more.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention the author's credentials or experience.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to software engineers interested in AI and automation, aligning well with the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook implies actionable insights by suggesting a method or process ('here's how'), but it's not explicit.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Highly attention-grabbing and relevant to the audience.",
+              "Clear and concise messaging."
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority.",
+              "Actionability is implied but not explicit."
+            ],
+            "recommendations": [
+              "Include a brief mention of the author's credentials to enhance social proof.",
+              "Make the promise of actionable insights more explicit to increase engagement."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a brief mention of the author's credentials to enhance social proof.",
+            "Make the promise of actionable insights more explicit to increase engagement."
+          ]
+        },
+        {
+          "hook": "The shocking truth: Software engineers who ignore AI get left behind",
+          "wordCount": 11,
+          "totalScore": 7.1,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'shocking truth' is designed to capture attention and create curiosity, making it effective for grabbing attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers fear of being left behind, which can be a strong motivator for the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks specific authority or credibility indicators, such as expert opinions or data.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to software engineers, especially those interested in AI and staying competitive.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it highlights a problem, it doesn't explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with strong emotional impact",
+              "Clear and concise messaging",
+              "Highly relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Incorporate expert opinions or data to enhance credibility",
+              "Include a promise of actionable insights or solutions to increase value"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate expert opinions or data to enhance credibility",
+            "Include a promise of actionable insights or solutions to increase value"
+          ]
+        },
+        {
+          "hook": "3 game-changing AI tools that make coding 10x faster today",
+          "wordCount": 10,
+          "totalScore": 7.5,
+          "basicScore": 7.2,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to the promise of 'game-changing' tools and the claim of making coding '10x faster,' which is likely to intrigue the target audience.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and excitement by suggesting a significant improvement in coding speed, which is appealing to software engineers.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention any credible sources or endorsements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the benefit of the tools in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is highly relevant to intermediate software engineers who are interested in AI tools and efficiency improvements.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook suggests actionable insights by implying that the tools can be used immediately to improve coding speed, though it could be more explicit.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with a strong promise of efficiency.",
+              "Clear and concise message."
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority.",
+              "Could be more explicit about the actionability of the tools."
+            ],
+            "recommendations": [
+              "Include a reference to credible sources or endorsements to enhance social proof.",
+              "Provide a clearer indication of how the tools can be applied for immediate results."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to credible sources or endorsements to enhance social proof.",
+            "Provide a clearer indication of how the tools can be applied for immediate results."
+          ]
+        },
+        {
+          "hook": "I was skeptical about AI in coding, until this happened...",
+          "wordCount": 10,
+          "totalScore": 7.1,
+          "basicScore": 6.9,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook effectively captures attention by presenting a personal transformation and an intriguing event related to AI, which is a hot topic in technology.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and surprise by hinting at a significant change in perspective, which can trigger emotional engagement.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention any credentials or experiences that establish credibility.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand and digest quickly.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI in coding is highly relevant to the target audience of intermediate software engineers.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests a story or insight, it doesn't explicitly promise actionable information or insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a personal story",
+              "Relevant to the technology audience",
+              "Clear and concise"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Doesn't promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of the outcome or insight to increase actionability",
+              "Add a reference to personal experience or authority to enhance social proof"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of the outcome or insight to increase actionability",
+            "Add a reference to personal experience or authority to enhance social proof"
+          ]
+        },
+        {
+          "hook": "Warning: Your programming skills are becoming obsolete without these AI tricks",
+          "wordCount": 11,
+          "totalScore": 7.65,
+          "basicScore": 6.2,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 9,
+                "reasoning": "The hook uses a strong warning and suggests a threat to the reader's skills, which is likely to capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 8,
+                "reasoning": "The hook triggers fear and urgency by suggesting obsolescence, which can provoke a strong emotional response.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks any mention of authority or credibility, such as expert opinions or data, to support its claim.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, directly addressing the potential issue with programming skills.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 9,
+                "reasoning": "The hook is highly relevant to intermediate software engineers concerned about staying current with AI advancements.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests valuable information ('AI tricks'), it doesn't explicitly promise actionable insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Highly attention-grabbing and relevant to the target audience.",
+              "Effectively uses emotional impact to engage readers."
+            ],
+            "weaknesses": [
+              "Lacks social proof or authority to support the claim.",
+              "Does not clearly promise actionable insights."
+            ],
+            "recommendations": [
+              "Incorporate a reference to an expert or study to enhance credibility.",
+              "Explicitly mention the actionable insights or benefits to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a reference to an expert or study to enhance credibility.",
+            "Explicitly mention the actionable insights or benefits to increase actionability."
+          ]
+        }
+      ],
+      "averageScore": 7.5,
+      "basicAverageScore": 6.9,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Highly attention-grabbing and relevant to the audience.",
+          "Clear and concise messaging.",
+          "Attention-grabbing with strong emotional impact"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof or authority.",
+          "Actionability is implied but not explicit.",
+          "Lacks social proof or authority"
+        ]
+      },
+      "executionTime": 3312,
+      "tokensUsed": 805,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "claude-3-opus": {
+      "model": "claude-3-opus",
+      "hooks": [],
+      "averageScore": 0,
+      "error": "Failed to generate hooks with Claude 3 Opus: AI_APICallError: model: claude-3-opus-20240229",
+      "strengthsAndWeaknesses": {
+        "strengths": [],
+        "weaknesses": []
+      }
+    }
+  },
+  "comparison": {
+    "winner": "claude-3-5-sonnet",
+    "scoreDifference": 0,
+    "confidenceLevel": 85,
+    "modelRankings": [
+      {
+        "modelId": "claude-3-5-sonnet",
+        "score": 7.5
+      },
+      {
+        "modelId": "claude-3-5-haiku",
+        "score": 7.5
+      },
+      {
+        "modelId": "gpt4o",
+        "score": 7.2
+      },
+      {
+        "modelId": "gpt4o-mini",
+        "score": 7.2
+      }
+    ]
+  },
+  "analytics": {
+    "executionTime": 11203,
+    "modelsAnalyzed": 6,
+    "modelsFailed": 0
+  },
+  "insights": {
+    "keyFindings": [
+      "Claude 3.5 Sonnet won with 7.5/10",
+      "Score difference: 0 points",
+      "Successfully analyzed 6/6 models",
+      "Used LLM-as-a-Judge evaluation with GPT-4o"
+    ],
+    "recommendations": [
+      "Consider A/B testing top performing hooks",
+      "Focus on emotional triggers for better engagement",
+      "Test with your target audience",
+      "Review judge analysis for specific improvements"
+    ],
+    "performanceSummary": {
+      "highestScore": 7.5,
+      "lowestScore": 7.2,
+      "averageScore": 7.35,
+      "consistencyScore": 8.5,
+      "evaluationMethod": "LLM-as-a-Judge",
+      "judgeModel": "GPT-4o",
+      "avgJudgeConfidence": 7.8
+    }
+  },
+  "rawJudgeResponses": null,
+  "judgePrompts": null
+}
