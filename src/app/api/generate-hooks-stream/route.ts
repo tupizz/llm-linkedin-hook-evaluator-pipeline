@@ -35,6 +35,8 @@ import {
  * Clean, service-based architecture following single responsibility principles
  */
 export async function POST(request: NextRequest): Promise<Response> {
+  console.log("API Route hit - debugging enabled"); // Remove after testing
+  debugger; // This will force a breakpoint
   try {
     // Step 1: Validate request
     const validation = await validateRequest(

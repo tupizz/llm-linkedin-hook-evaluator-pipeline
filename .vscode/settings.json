@@ -1,0 +1,17 @@
+{
+  "debug.javascript.autoAttachFilter": "disabled",
+  "debug.javascript.unmapMissingSources": true,
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [],
+    "sourceMaps": true,
+    "resolveSourceMapLocations": [
+      "${workspaceFolder}/**",
+      "!**/node_modules/**"
+    ]
+  },
+  "files.exclude": {
+    "**/.next": false
+  },
+  "debug.node.autoAttach": "on",
+  "debug.javascript.breakOnConditionalError": true
+}
