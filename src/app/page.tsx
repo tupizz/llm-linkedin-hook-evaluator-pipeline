@@ -18,7 +18,7 @@ import { ModelConfig, UNIFIED_MODEL_CONFIGS } from "@/lib/unified-llm-service";
 // Enhanced model descriptions
 function getModelDescription(model: ModelConfig): string {
   const descriptions: Record<string, string> = {
-    gpt4o: "Most advanced OpenAI model with superior creativity",
+    gpt4o: "OpenAI model with superior creativity",
     "gpt4o-mini": "Fast and efficient OpenAI model",
     "gpt-4.1":
       "GPT-4.1 is our flagship model for complex tasks. It is well suited for problem solving across domains.",
