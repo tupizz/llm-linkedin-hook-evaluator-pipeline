@@ -7,8 +7,14 @@ import {
   UNIFIED_MODEL_CONFIGS,
   validateModelConfig,
 } from "@/lib/unified-llm-service";
+import { put } from "@vercel/blob";
+import crypto from "node:crypto";
 import { ProgressTracker } from "./progress-tracker";
 import { StreamingService } from "./streaming-service";
+
+function generateUUID() {
+  return crypto.randomUUID();
+}
 
 /**
  * Core pipeline service
@@ -79,8 +85,16 @@ export class PipelineService {
       progressTracker
     );
 
-    // Send completion
-    streamingService.sendComplete(controller, finalResults);
+    // Upload results to Vercel Blob and send completion
+    const blob = await put(
+      `results-${generateUUID()}.json`,
+      JSON.stringify(finalResults, null, 2),
+      {
+        access: "public",
+      }
+    );
+
+    streamingService.sendComplete(controller, { url: blob.url });
   }
 
   /**

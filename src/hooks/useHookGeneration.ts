@@ -194,7 +194,19 @@ export function useHookGeneration(): HookGenerationState &
                 setCurrentStep(event.step);
                 setProgress(event.progress || 0);
               } else if (event.type === "complete") {
-                setResults(event.data);
+                // Fetch results from the blob URL
+                if (event.data?.url) {
+                  try {
+                    const resultsResponse = await fetch(event.data.url);
+                    const resultsData = await resultsResponse.json();
+                    setResults(resultsData);
+                  } catch (fetchError) {
+                    console.error("Failed to fetch results from blob:", fetchError);
+                    setCurrentStep("Failed to load results. Please try again.");
+                  }
+                } else {
+                  setResults(event.data);
+                }
                 setIsLoading(false);
               } else if (event.type === "error") {
                 throw new Error(event.error);
