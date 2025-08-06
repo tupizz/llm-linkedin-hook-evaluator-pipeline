@@ -117,10 +117,10 @@ export const ModelResults: React.FC<ModelResultsProps> = ({
                       <div className="flex-1 pr-4">
                         <div className="relative p-1">
                           {/* Hook text with enhanced typography */}
-                          <blockquote className="text-xl font-bold leading-snug tracking-tight relative">
+                          <blockquote className="text-2xl font-bold leading-snug tracking-tight relative">
                             {/* Main hook text with better contrast */}
                             <span className="relative z-10 font-serif drop-shadow-sm text-white">
-                              {hookData.hook}
+                              &quot;{hookData.hook}&quot;
                             </span>
                           </blockquote>
                         </div>
