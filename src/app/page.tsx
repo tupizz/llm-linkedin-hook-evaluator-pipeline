@@ -22,9 +22,10 @@ function getModelDescription(model: ModelConfig): string {
     "gpt4o-mini": "Fast and efficient OpenAI model",
     "gpt-4.1":
       "GPT-4.1 is our flagship model for complex tasks. It is well suited for problem solving across domains.",
-    "claude-3-5-sonnet": "Anthropic's flagship model with excellent reasoning",
-    "claude-3-5-haiku": "Lightning-fast Anthropic model",
-    "claude-3-opus": "Most capable Anthropic model for complex tasks",
+    "claude-opus-4-1":
+      "Claude Opus 4.1 is our flagship model for complex tasks. It is well suited for problem solving across domains.",
+    "claude-3-5-haiku":
+      "Claude 3.5 Haiku is our flagship model for complex tasks. It is well suited for problem solving across domains.",
   };
   return descriptions[model.id] || `${model.name} - ${model.provider} model`;
 }

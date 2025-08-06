@@ -201,9 +201,12 @@ export class PipelineService {
     const { postIdea, industry, targetAudience } = requestData;
 
     // Process all hooks concurrently
-    const hookPromises = hooks.map(async (hook) => {
+    const hookPromises = hooks.map(async (hook, index) => {
       try {
-        console.log("evaluating hook", hook);
+        console.log(
+          `Evaluating hook ${index + 1}/${hooks.length} for ${modelId}:`,
+          hook
+        );
         const judgeResult = await this.judge.evaluateLinkedInHook(hook, {
           postIdea,
           industry,
@@ -237,6 +240,9 @@ export class PipelineService {
 
     // Wait for all hook evaluations to complete
     const evaluations = await Promise.all(hookPromises);
+
+    // Mark hook evaluation complete for this model
+    progressTracker.modelHooksEvaluated(modelId, streamingService, controller);
 
     return evaluations;
   }

@@ -54,18 +54,18 @@ export const UNIFIED_MODEL_CONFIGS: ModelConfig[] = [
   },
   // Anthropic Models
   {
-    id: "claude-3-5-sonnet",
-    name: "Claude 3.5 Sonnet",
+    id: "claude-3-5-haiku",
+    name: "Claude 3.5 Haiku",
     provider: "anthropic",
-    model: "claude-3-5-sonnet-20241022",
+    model: "claude-3-5-haiku-latest",
     supported: true,
     maxTokens: 4096,
   },
   {
-    id: "claude-3-5-haiku",
-    name: "Claude 3.5 Haiku",
+    id: "claude-opus-4-1",
+    name: "Claude Opus 4.1",
     provider: "anthropic",
-    model: "claude-3-5-haiku-20241022",
+    model: "claude-opus-4-1",
     supported: true,
     maxTokens: 4096,
   },
@@ -269,6 +269,7 @@ No additional text, explanations, or formatting. Just the JSON object with exact
       tokenUsage,
     };
   } catch (error) {
+    console.log("error => ", error);
     const executionTime = Math.round(performance.now() - startTime);
     console.error(`Error with ${modelConfig.name}:`, error);
     throw new Error(

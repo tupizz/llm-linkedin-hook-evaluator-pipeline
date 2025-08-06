@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { AnalysisOption } from '@/types';
+import { AnalysisOption } from "@/types";
+import { useState } from "react";
 
 export interface HookGenerationState {
   postIdea: string;
@@ -50,17 +50,24 @@ const DEFAULT_ANALYSIS_OPTIONS: AnalysisOption[] = [
   },
 ];
 
-export function useHookGeneration(): HookGenerationState & HookGenerationActions {
-  const [postIdea, setPostIdea] = useState("");
-  const [industry, setIndustry] = useState("");
+export function useHookGeneration(): HookGenerationState &
+  HookGenerationActions {
+  const [postIdea, setPostIdea] = useState(
+    "Create a post about personal branding with ai in 2025 for b2b companies"
+  );
+  const [industry, setIndustry] = useState("B2B");
   const [targetAudience, setTargetAudience] = useState("intermediate");
   const [contentType, setContentType] = useState("tip");
   const [selectedModels, setSelectedModels] = useState<string[]>([
     "gpt4o",
-    "claude-3-5-sonnet",
+    "gpt-4.1",
   ]);
-  const [focusSkills, setFocusSkills] = useState<string[]>([]);
-  const [analysisOptions] = useState<AnalysisOption[]>(DEFAULT_ANALYSIS_OPTIONS);
+  const [focusSkills, setFocusSkills] = useState<string[]>([
+    "attention_grabbing",
+  ]);
+  const [analysisOptions] = useState<AnalysisOption[]>(
+    DEFAULT_ANALYSIS_OPTIONS
+  );
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<any>(null);
   const [currentStep, setCurrentStep] = useState("");
@@ -99,24 +106,28 @@ export function useHookGeneration(): HookGenerationState & HookGenerationActions
 
       if (!response.ok) {
         const errorResult = await response.json();
-        throw new Error(errorResult.error || "Failed to generate analysis export");
+        throw new Error(
+          errorResult.error || "Failed to generate analysis export"
+        );
       }
 
       // Get the filename from the Content-Disposition header
-      const contentDisposition = response.headers.get('Content-Disposition');
+      const contentDisposition = response.headers.get("Content-Disposition");
       const filenameMatch = contentDisposition?.match(/filename="([^"]+)"/);
-      const filename = filenameMatch ? filenameMatch[1] : `linkedin-hook-analysis-${Date.now()}.json`;
+      const filename = filenameMatch
+        ? filenameMatch[1]
+        : `linkedin-hook-analysis-${Date.now()}.json`;
 
       // Get the JSON data as blob
       const blob = await response.blob();
 
       // Create download link
       const url = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
+      const link = document.createElement("a");
       link.href = url;
       link.download = filename;
-      link.style.display = 'none';
-      
+      link.style.display = "none";
+
       // Trigger download
       document.body.appendChild(link);
       link.click();
@@ -124,8 +135,11 @@ export function useHookGeneration(): HookGenerationState & HookGenerationActions
       window.URL.revokeObjectURL(url);
 
       // Success notification
-      alert(`Analysis exported successfully!\nFile: ${filename}\nSize: ${Math.round(blob.size / 1024)}KB`);
-
+      alert(
+        `Analysis exported successfully!\nFile: ${filename}\nSize: ${Math.round(
+          blob.size / 1024
+        )}KB`
+      );
     } catch (error) {
       console.error("Export failed:", error);
       alert(
@@ -211,7 +225,7 @@ export function useHookGeneration(): HookGenerationState & HookGenerationActions
     results,
     currentStep,
     progress,
-    
+
     // Actions
     setPostIdea,
     setIndustry,
