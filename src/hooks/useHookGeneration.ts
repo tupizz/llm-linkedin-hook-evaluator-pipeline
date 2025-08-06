@@ -97,20 +97,42 @@ export function useHookGeneration(): HookGenerationState & HookGenerationActions
         body: JSON.stringify(exportData),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
-        alert(
-          `Analysis saved successfully!\nFile: ${
-            result.filename
-          }\nSize: ${Math.round(result.size / 1024)}KB`
-        );
-      } else {
-        alert(`Failed to save analysis: ${result.error}`);
+      if (!response.ok) {
+        const errorResult = await response.json();
+        throw new Error(errorResult.error || "Failed to generate analysis export");
       }
+
+      // Get the filename from the Content-Disposition header
+      const contentDisposition = response.headers.get('Content-Disposition');
+      const filenameMatch = contentDisposition?.match(/filename="([^"]+)"/);
+      const filename = filenameMatch ? filenameMatch[1] : `linkedin-hook-analysis-${Date.now()}.json`;
+
+      // Get the JSON data as blob
+      const blob = await response.blob();
+
+      // Create download link
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      link.style.display = 'none';
+      
+      // Trigger download
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+
+      // Success notification
+      alert(`Analysis exported successfully!\nFile: ${filename}\nSize: ${Math.round(blob.size / 1024)}KB`);
+
     } catch (error) {
-      console.error("Save error:", error);
-      alert("Failed to save analysis. Please try again.");
+      console.error("Export failed:", error);
+      alert(
+        `Failed to export analysis: ${
+          error instanceof Error ? error.message : "Unknown error"
+        }`
+      );
     }
   };
 

@@ -1,7 +1,6 @@
 import { ScrollUtils } from "@/hooks/useScrollUtils";
 import { ModelConfig } from "@/lib/unified-llm-service";
 import {
-  Anchor,
   Brain,
   ChevronDown,
   ChevronRight,
@@ -9,7 +8,6 @@ import {
   FileText,
   Lightbulb,
   Settings,
-  Star,
   Target,
   Users,
 } from "lucide-react";

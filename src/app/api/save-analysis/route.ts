@@ -1,7 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
-import { writeFile } from 'fs/promises';
-import { join } from 'path';
 
 export async function POST(request: NextRequest) {
   try {
@@ -10,17 +7,6 @@ export async function POST(request: NextRequest) {
     // Create filename with timestamp
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const filename = `linkedin-hook-analysis-${timestamp}.json`;
-    
-    // Save to project root/analysis-exports directory
-    const exportDir = join(process.cwd(), 'analysis-exports');
-    const filePath = join(exportDir, filename);
-    
-    // Ensure directory exists
-    try {
-      await writeFile(join(exportDir, '.gitkeep'), '');
-    } catch {
-      // Directory already exists or was created
-    }
     
     // Structure the data for export
     const exportData = {
@@ -32,7 +18,8 @@ export async function POST(request: NextRequest) {
         targetAudience: data.targetAudience,
         contentType: data.contentType,
         selectedModels: data.selectedModels,
-        analysisOptions: data.analysisOptions
+        focusSkills: data.focusSkills || [],
+        analysisOptions: data.analysisOptions || []
       },
       results: data.results,
       comparison: data.comparison,
@@ -42,21 +29,22 @@ export async function POST(request: NextRequest) {
       judgePrompts: data.judgePrompts || null
     };
     
-    await writeFile(filePath, JSON.stringify(exportData, null, 2), 'utf-8');
-    
-    return NextResponse.json({
-      success: true,
-      filename,
-      path: filePath,
-      size: JSON.stringify(exportData).length
+    // Return the JSON data for client-side download
+    return new NextResponse(JSON.stringify(exportData, null, 2), {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Disposition': `attachment; filename="${filename}"`,
+        'Cache-Control': 'no-cache',
+      }
     });
     
   } catch (error) {
-    console.error('Error saving analysis:', error);
+    console.error('Error preparing analysis export:', error);
     return NextResponse.json(
       { 
         success: false, 
-        error: 'Failed to save analysis',
+        error: 'Failed to prepare analysis export',
         details: error instanceof Error ? error.message : 'Unknown error'
       },
       { status: 500 }
