@@ -410,10 +410,11 @@ RED FLAGS TO PENALIZE HEAVILY (automatic score reduction):
 INSTRUCTIONS:
 1. Evaluate each criterion independently with specific reasoning
 2. Provide a numerical score based on the specified scale  
-3. Give your confidence level (1-10) for each evaluation
+3. Give your confidence level (1-10) for each evaluation, don't be too hard on the score, be fair and balanced.
 4. Identify specific strengths and weaknesses
 5. Provide actionable recommendations
 6. Heavily penalize hooks containing red flag jargon or patterns
+7. Heavily benefit and add points to hooks that are good for the evaluation criteria.
 
 Your response will be automatically structured as JSON with the required format.`;
   }
