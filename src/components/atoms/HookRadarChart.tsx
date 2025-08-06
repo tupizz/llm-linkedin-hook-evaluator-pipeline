@@ -339,7 +339,12 @@ const HookRadarChart: React.FC<HookRadarChartProps> = ({
               const y = center + scaledValue * Math.sin(angle);
 
               return (
-                <g key={`point-${index}`}>
+                <g 
+                  key={`point-${index}`}
+                  onMouseEnter={(e) => handleSkillHover(skill, e)}
+                  onMouseLeave={handleSkillLeave}
+                  className="cursor-pointer"
+                >
                   {/* Main point */}
                   <circle
                     cx={x}
@@ -348,7 +353,7 @@ const HookRadarChart: React.FC<HookRadarChartProps> = ({
                     fill={`url(#pointGradient-${index})`}
                     stroke="white"
                     strokeWidth="2.5"
-                    className="drop-shadow-lg cursor-pointer hover:r-7 transition-all duration-300"
+                    className="drop-shadow-lg hover:r-8 transition-all duration-300"
                     filter="url(#pointShadow)"
                   />
                   {/* Inner highlight */}

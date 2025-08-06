@@ -86,7 +86,9 @@ export function getContextualPrompt(
   postIdea: string,
   contentType: string,
   evaluationContext: string,
-  industry?: string
+  industry?: string,
+  focusSkills?: string[],
+  targetAudience?: string
 ) {
   const contextualModifiers = {
     professional: "professional LinkedIn network",
@@ -107,6 +109,26 @@ export function getContextualPrompt(
     ? `\nIndustry context: ${industry} sector`
     : "";
 
+  // Map focus skills to human-readable descriptions
+  const skillDescriptions: Record<string, string> = {
+    attention_grabbing: "attention-grabbing and curiosity-driven",
+    emotional_impact: "emotionally impactful and empathy-focused",
+    social_proof: "authority-based with credibility markers",
+    clarity_and_brevity: "clear, concise, and easily understandable",
+    relevance_to_audience:
+      "highly relevant and insightful for the target audience",
+    actionability_promise: "promising specific actionable outcomes",
+  };
+
+  const focusSkillsContext =
+    focusSkills && focusSkills.length > 0
+      ? `\nPRIORITY FOCUS: Generate hooks that are especially ${focusSkills
+          .map((skill) => skillDescriptions[skill] || skill)
+          .join(
+            ", "
+          )}. These aspects should be the strongest features of your hooks.`
+      : "";
+
   return `You are an expert LinkedIn content strategist specializing in ${
     contextualModifiers[
       evaluationContext as keyof typeof contextualModifiers
@@ -116,11 +138,21 @@ export function getContextualPrompt(
 Generate 5 compelling LinkedIn post hooks optimized for ${
     contentTypeModifiers[contentType as keyof typeof contentTypeModifiers] ||
     "professional content"
-  }.${industryContext}
+  }.${industryContext}${focusSkillsContext} and we should focus on ${targetAudience} audience.
 
 REQUIREMENTS:
 - Each hook should be 6-12 words long
-- Must evoke strong emotion (curiosity, surprise, urgency, excitement, empathy)
+- Must evoke strong emotions like (${
+    focusSkills && focusSkills.length > 0
+      ? focusSkills
+          .map(
+            (skill) =>
+              skillDescriptions[skill as keyof typeof skillDescriptions] ||
+              skill
+          )
+          .join(", ")
+      : "curiosity, surprise, urgency, excitement, empathy"
+  })
 - Should be highly relevant for B2B/professional LinkedIn audience
 - Use clear, accessible English (non-native speaker friendly)
 - Create "scroll-stopper" impact
@@ -149,10 +181,7 @@ export async function generateHooksWithModel(
     const model = getModelProvider(modelConfig);
 
     // Check if model supports structured outputs
-    const supportsStructuredOutput =
-      ["gpt-4o", "gpt-4o-mini"].includes(modelConfig.model) ||
-      modelConfig.provider === "anthropic";
-
+    const supportsStructuredOutput = true;
     let hooks: string[] = [];
     let tokenUsage: number | undefined;
 
@@ -161,7 +190,7 @@ export async function generateHooksWithModel(
         model,
         messages: [{ role: "user", content: prompt }],
         schema: hooksSchema,
-        temperature: 0.7,
+        temperature: 0.3,
       });
 
       hooks = result.object.hooks;
@@ -180,7 +209,7 @@ No additional text, explanations, or formatting. Just the JSON object with exact
       const result = await generateText({
         model,
         messages: [{ role: "user", content: enhancedPrompt }],
-        temperature: 0.7,
+        temperature: 0.3,
       });
 
       tokenUsage = result.usage?.totalTokens;

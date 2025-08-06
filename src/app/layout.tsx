@@ -19,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} font-sans bg-background text-foreground min-h-screen`}>
+      <body 
+        className={`${inter.variable} font-sans bg-background text-foreground min-h-screen`}
+        suppressHydrationWarning={true}
+      >
         <div className="min-h-screen bg-gradient-to-br from-background via-background to-[#1a1b1e]">
           {children}
         </div>

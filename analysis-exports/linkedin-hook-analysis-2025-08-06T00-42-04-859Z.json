@@ -1,0 +1,1178 @@
+{
+  "timestamp": "2025-08-06T00:42:04.860Z",
+  "exportVersion": "1.0",
+  "metadata": {
+    "postIdea": "personal branding with ai in 2025 for b2b companies",
+    "industry": "",
+    "targetAudience": "intermediate",
+    "contentType": "tip",
+    "selectedModels": [
+      "gpt4o",
+      "claude-3-5-sonnet",
+      "gpt-4.1"
+    ],
+    "analysisOptions": [
+      "semantic",
+      "psychological",
+      "engagement"
+    ]
+  },
+  "results": {
+    "gpt4o": {
+      "model": "GPT-4o",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Unlock AI's Role in Personal Branding by 2025",
+          "wordCount": 8,
+          "totalScore": 6.4,
+          "basicScore": 7.2,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention by suggesting a future-oriented insight into AI's role in personal branding, which is intriguing but lacks a specific, immediate draw.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook generates curiosity about the future of AI in personal branding, but it doesn't evoke strong emotions like excitement or fear.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility, as it lacks references to experts or proven results.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic is relevant to professionals interested in AI and personal branding, but it may not appeal to all intermediate LinkedIn users.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a future insight but does not promise specific actionable steps or valuable information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Future-oriented topic that generates curiosity"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific, intriguing detail to enhance attention-grabbing quality.",
+              "Incorporate a quote or reference from an industry expert to add credibility.",
+              "Suggest a specific benefit or actionable insight to increase actionability promise."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific, intriguing detail to enhance attention-grabbing quality.",
+            "Incorporate a quote or reference from an industry expert to add credibility.",
+            "Suggest a specific benefit or actionable insight to increase actionability promise."
+          ]
+        },
+        {
+          "hook": "Why 80% of B2B Brands Will Use AI by 2025",
+          "wordCount": 10,
+          "totalScore": 7.4,
+          "basicScore": 8.3,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to its bold prediction about AI adoption, which is a hot topic.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency about the future of AI in B2B.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The hook lacks direct social proof or authority, as it doesn't cite specific sources or experts.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is highly relevant to professionals interested in AI and B2B trends.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook does not explicitly promise actionable insights or steps, focusing more on prediction.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing prediction",
+              "Clear and concise message",
+              "Relevant to B2B professionals"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a statistic or expert quote for authority",
+              "Suggest potential actions or insights related to AI adoption"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or expert quote for authority",
+            "Suggest potential actions or insights related to AI adoption"
+          ]
+        },
+        {
+          "hook": "Transform Your Brand: AI Strategies You Need Now",
+          "wordCount": 8,
+          "totalScore": 6.3,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The phrase 'Transform Your Brand' is compelling and suggests significant change, which can capture attention. However, it lacks a specific, intriguing element that would make it more captivating.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook implies excitement about AI strategies, but it doesn't evoke a strong emotional response such as surprise or fear.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not reference any authority or credibility, such as a well-known figure or a proven track record, to enhance its persuasive power.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the focus on AI strategies for brand transformation.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic of AI strategies is relevant to a professional audience interested in brand development, but it could be more tailored to specific industries or roles.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests valuable AI strategies, it lacks a clear promise of actionable insights or steps that the audience can immediately apply.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant topic for professionals"
+            ],
+            "weaknesses": [
+              "Lacks specific social proof",
+              "Does not strongly evoke emotions",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific, intriguing element to enhance attention-grabbing potential.",
+              "Incorporate a credible source or authority to strengthen social proof.",
+              "Offer a clear promise of actionable steps or insights to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific, intriguing element to enhance attention-grabbing potential.",
+            "Incorporate a credible source or authority to strengthen social proof.",
+            "Offer a clear promise of actionable steps or insights to increase actionability."
+          ]
+        },
+        {
+          "hook": "AI in 2025: The Personal Branding Revolution",
+          "wordCount": 7,
+          "totalScore": 6.5,
+          "basicScore": 7.1,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The title 'AI in 2025: The Personal Branding Revolution' is intriguing and suggests a futuristic and transformative topic, which can capture attention. However, it lacks a specific hook or surprising element that would make it more compelling.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The phrase 'Personal Branding Revolution' implies significant change, which can evoke curiosity and excitement. However, it doesn't strongly trigger emotions like fear or surprise.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook does not leverage any authority or credibility. It lacks references to experts, companies, or personal achievements that would enhance its credibility.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the topic of AI and personal branding in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic is relevant to professionals interested in AI and personal branding, but it could be more tailored to specific industries or roles to increase relevance.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook suggests a topic of interest but does not promise specific actionable insights or valuable information, which could enhance its appeal.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Intriguing and futuristic topic",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional triggers",
+              "No social proof or authority",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a surprising or bold statement to enhance attention-grabbing potential.",
+              "Incorporate social proof by referencing experts or case studies.",
+              "Promise specific insights or actions to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a surprising or bold statement to enhance attention-grabbing potential.",
+            "Incorporate social proof by referencing experts or case studies.",
+            "Promise specific insights or actions to increase actionability."
+          ]
+        },
+        {
+          "hook": "Surprising AI Trends Reshaping B2B Branding by 2025",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 7.7,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Surprising AI Trends' is intriguing and likely to capture attention, especially with the mention of a specific future year, 2025, which adds urgency and curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The use of 'Surprising' and 'Reshaping' can evoke curiosity and excitement, but it could be stronger with more emotional language.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as expert opinions or data references.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "AI trends in B2B branding are highly relevant to professionals interested in future business strategies.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While the hook suggests valuable insights, it does not explicitly promise actionable steps or outcomes.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience",
+              "Captures attention with future-oriented language"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Could enhance emotional impact with stronger language",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to an authority or data to enhance credibility.",
+              "Use more emotionally charged language to increase impact.",
+              "Explicitly mention actionable insights or outcomes to strengthen the promise."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an authority or data to enhance credibility.",
+            "Use more emotionally charged language to increase impact.",
+            "Explicitly mention actionable insights or outcomes to strengthen the promise."
+          ]
+        }
+      ],
+      "averageScore": 6.8,
+      "basicAverageScore": 7.4,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Clear and concise message",
+          "Future-oriented topic that generates curiosity",
+          "Attention-grabbing prediction"
+        ],
+        "weaknesses": [
+          "Lacks strong emotional impact",
+          "No social proof or authority",
+          "Limited promise of actionable insights"
+        ]
+      },
+      "executionTime": 2927,
+      "tokensUsed": 355,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "claude-3-5-sonnet": {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "anthropic",
+      "hooks": [
+        {
+          "hook": "87% of B2B Leaders Fail at AI Personal Branding",
+          "wordCount": 9,
+          "totalScore": 7.4,
+          "basicScore": 8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The statistic '87% of B2B Leaders Fail' is striking and likely to capture attention due to its specificity and the implication of widespread failure.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency, as it suggests a common failure among leaders, which can evoke concern or fear of missing out.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The use of a statistic implies some level of research or authority, but it lacks direct attribution to a credible source, which weakens its impact.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI personal branding is highly relevant to B2B leaders and professionals on LinkedIn, aligning well with the target audience's interests.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook highlights a problem, it does not explicitly promise actionable insights or solutions, which limits its effectiveness in this area.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing statistic",
+              "Clear and concise message",
+              "Relevant to B2B professionals"
+            ],
+            "weaknesses": [
+              "Lacks direct attribution for social proof",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a credible source for the statistic to enhance authority.",
+              "Suggest a solution or insight to improve actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a credible source for the statistic to enhance authority.",
+            "Suggest a solution or insight to improve actionability."
+          ]
+        },
+        {
+          "hook": "The 3-Minute AI Hack That Tripled My B2B Sales",
+          "wordCount": 9,
+          "totalScore": 8.05,
+          "basicScore": 8.2,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 9,
+                "reasoning": "The hook is highly attention-grabbing due to its promise of a quick and significant result ('tripled my B2B sales') using a novel method ('3-Minute AI Hack').",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 8,
+                "reasoning": "The hook triggers curiosity and excitement by suggesting a rapid and substantial improvement in sales, appealing to the audience's desire for efficiency and success.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "While the hook implies success, it lacks explicit authority or credibility indicators, such as personal credentials or endorsements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, effectively communicating the core idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The hook is relevant to professionals interested in B2B sales and AI, aligning well with the target LinkedIn audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook suggests actionable insights by mentioning a specific 'AI Hack,' but lacks detail on the nature of the insights.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Highly attention-grabbing and concise",
+              "Relevant to B2B sales professionals"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority",
+              "Limited detail on the actionable insights"
+            ],
+            "recommendations": [
+              "Include a brief mention of personal credentials or success metrics to enhance credibility.",
+              "Provide a hint of the type of AI hack or insight to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a brief mention of personal credentials or success metrics to enhance credibility.",
+            "Provide a hint of the type of AI hack or insight to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Stop Using AI Wrong: What Top CEOs Know",
+          "wordCount": 8,
+          "totalScore": 7.65,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is direct and uses a strong imperative ('Stop Using AI Wrong') that captures attention and creates curiosity about what top CEOs know.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a slight fear of missing out by implying a common mistake and offering insider knowledge from top CEOs.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 8,
+                "reasoning": "The mention of 'Top CEOs' provides authority and credibility, suggesting that the information is backed by successful leaders.",
+                "confidence": 9
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand the focus on AI usage and CEO insights.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The topic of AI and insights from CEOs is relevant to an intermediate professional audience interested in leadership and technology trends.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While the hook suggests valuable insights, it lacks a clear promise of actionable steps or specific outcomes.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing imperative",
+              "Credibility through mention of CEOs",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks explicit promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of specific actionable insights or outcomes to enhance the promise of value."
+            ],
+            "confidence": 9
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 90,
+          "recommendations": [
+            "Include a hint of specific actionable insights or outcomes to enhance the promise of value."
+          ]
+        },
+        {
+          "hook": "Your 2025 Personal Brand is Dying (Here's Why)",
+          "wordCount": 8,
+          "totalScore": 7.1,
+          "basicScore": 6.9,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Your 2025 Personal Brand is Dying' is provocative and likely to capture attention due to its urgency and dramatic tone.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency, potentially causing concern about one's personal brand.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert validation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of personal branding is highly relevant to LinkedIn's professional audience, especially looking towards the future.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests a problem, it does not explicitly promise actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Provocative and attention-grabbing",
+              "Clear and concise messaging",
+              "Relevant to professional audience"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of authority or experience to enhance credibility.",
+              "Suggest a promise of solutions or insights to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of authority or experience to enhance credibility.",
+            "Suggest a promise of solutions or insights to increase actionability."
+          ]
+        },
+        {
+          "hook": "I Lost $50K Before Mastering AI Personal Branding",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 8.3,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to the mention of a significant financial loss, which piques curiosity about the story behind it.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The mention of losing $50K triggers emotions of surprise and curiosity, making the audience wonder about the circumstances and lessons learned.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "While the financial loss implies experience, it lacks explicit authority or credibility indicators such as a professional title or company affiliation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI personal branding is relevant to professionals interested in leveraging technology for career advancement.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "The hook suggests a learning experience but does not explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing due to financial loss mention",
+              "Clear and concise messaging",
+              "Relevant topic for professionals"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of the lesson or insight gained to enhance actionability.",
+              "Add a brief mention of professional background to strengthen social proof."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of the lesson or insight gained to enhance actionability.",
+            "Add a brief mention of professional background to strengthen social proof."
+          ]
+        }
+      ],
+      "averageScore": 7.5,
+      "basicAverageScore": 7.6,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Attention-grabbing statistic",
+          "Clear and concise message",
+          "Relevant to B2B professionals"
+        ],
+        "weaknesses": [
+          "Lacks direct attribution for social proof",
+          "Does not promise actionable insights",
+          "Lacks explicit social proof or authority"
+        ]
+      },
+      "executionTime": 2947,
+      "tokensUsed": 840,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8.2
+      }
+    },
+    "gpt-4.1": {
+      "model": "GPT-4.1",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "How I Doubled B2B Leads Using AI Branding in 2025",
+          "wordCount": 10,
+          "totalScore": 7.7,
+          "basicScore": 8.5,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is attention-grabbing due to its promise of doubling B2B leads using AI, which is a hot topic. The mention of '2025' adds a futuristic element that piques curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and excitement about AI's potential in branding, but lacks a strong emotional punch that could elevate it further.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The hook lacks explicit social proof or authority. It would be stronger if it referenced a credible source or personal achievement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea without unnecessary details.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals interested in B2B marketing and AI, aligning well with the target audience's interests.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook suggests actionable insights by implying a method to double leads, but it could be more explicit about the actionable steps.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing with a futuristic angle",
+              "Clear and concise messaging",
+              "Relevant to B2B professionals"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Could enhance emotional impact"
+            ],
+            "recommendations": [
+              "Include a reference to a credible source or personal achievement for social proof",
+              "Enhance emotional impact by adding a surprising or bold statement",
+              "Be more explicit about the actionable insights promised"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a credible source or personal achievement for social proof",
+            "Enhance emotional impact by adding a surprising or bold statement",
+            "Be more explicit about the actionable insights promised"
+          ]
+        },
+        {
+          "hook": "Why Most B2B Brands Fail at AI—And How to Win",
+          "wordCount": 10,
+          "totalScore": 7.5,
+          "basicScore": 7.8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook effectively captures attention by addressing a common failure and promising a solution, which creates curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a sense of urgency by highlighting failure and offering a way to win.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or expert endorsement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, directly addressing the problem and solution.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to B2B professionals interested in AI, aligning well with the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 7,
+                "reasoning": "The hook implies actionable insights by suggesting a way to 'win,' but lacks specific details.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a common problem and solution.",
+              "Clear and concise messaging."
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority.",
+              "Actionability is implied but not detailed."
+            ],
+            "recommendations": [
+              "Include a reference to expertise or success story for credibility.",
+              "Provide a hint of specific actionable insights to enhance promise."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to expertise or success story for credibility.",
+            "Provide a hint of specific actionable insights to enhance promise."
+          ]
+        },
+        {
+          "hook": "Unlock 3 AI Branding Secrets Every B2B Leader Needs",
+          "wordCount": 9,
+          "totalScore": 7.8,
+          "basicScore": 8,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook uses the word 'Unlock' which creates curiosity and suggests exclusivity. The mention of 'AI Branding Secrets' is intriguing, especially for B2B leaders.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and excitement by promising secrets that are essential for B2B leaders, though it could be more emotionally charged.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The hook lacks explicit social proof or authority. It doesn't reference any specific authority or experience to enhance credibility.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the promise of three secrets in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The hook is relevant to B2B leaders interested in AI and branding, aligning well with the target audience's interests.",
+                "confidence": 9
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 8,
+                "reasoning": "The promise of '3 AI Branding Secrets' suggests actionable insights, appealing to those seeking practical information.",
+                "confidence": 8
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Creates curiosity with the word 'Unlock'",
+              "Relevant to B2B leaders interested in AI"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Could have a stronger emotional impact"
+            ],
+            "recommendations": [
+              "Incorporate a reference to authority or experience to enhance credibility",
+              "Use more emotionally charged language to increase impact"
+            ],
+            "confidence": 9
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 90,
+          "recommendations": [
+            "Incorporate a reference to authority or experience to enhance credibility",
+            "Use more emotionally charged language to increase impact"
+          ]
+        },
+        {
+          "hook": "My Biggest AI Branding Mistake—And What I Learned",
+          "wordCount": 8,
+          "totalScore": 7.4,
+          "basicScore": 7.7,
+          "explanation": "Strengths: optimal length, strong emotional appeal, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is intriguing as it suggests a personal mistake and a learning experience, which can capture attention and create curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The mention of a 'biggest mistake' can evoke curiosity and a sense of relatability, though it lacks a strong emotional trigger like financial loss.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit social proof or authority, as it doesn't mention any specific credentials or achievements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the essence of the content in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI branding is relevant to a professional audience interested in technology and branding strategies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests a learning experience, it doesn't explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Intriguing and curiosity-inducing",
+              "Clear and concise"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a hint of the specific lesson learned to enhance actionability.",
+              "Mention any relevant experience or authority to strengthen social proof."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a hint of the specific lesson learned to enhance actionability.",
+            "Mention any relevant experience or authority to strengthen social proof."
+          ]
+        },
+        {
+          "hook": "2025’s Top AI Branding Trend: Are You Ready?",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 7.2,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook is concise and uses a future-oriented question that piques curiosity about upcoming trends.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook generates curiosity and a mild sense of urgency about being prepared for future trends.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as expert opinions or data references.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the topic in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic of AI branding trends is relevant to professionals interested in staying ahead in their fields.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While it suggests future insights, it doesn't explicitly promise actionable steps or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Concise and clear messaging",
+              "Relevant and timely topic"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to an expert or data to enhance credibility.",
+              "Suggest specific benefits or insights to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to an expert or data to enhance credibility.",
+            "Suggest specific benefits or insights to increase actionability."
+          ]
+        }
+      ],
+      "averageScore": 7.5,
+      "basicAverageScore": 7.8,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Attention-grabbing with a futuristic angle",
+          "Clear and concise messaging",
+          "Relevant to B2B professionals"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof",
+          "Could enhance emotional impact",
+          "Lacks explicit social proof or authority."
+        ]
+      },
+      "executionTime": 3070,
+      "tokensUsed": 358,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8.2
+      }
+    }
+  },
+  "comparison": {
+    "winner": "claude-3-5-sonnet",
+    "scoreDifference": 0,
+    "confidenceLevel": 85,
+    "modelRankings": [
+      {
+        "modelId": "claude-3-5-sonnet",
+        "score": 7.5
+      },
+      {
+        "modelId": "gpt-4.1",
+        "score": 7.5
+      },
+      {
+        "modelId": "gpt4o",
+        "score": 6.8
+      }
+    ]
+  },
+  "analytics": {
+    "executionTime": 8944,
+    "modelsAnalyzed": 3,
+    "modelsFailed": 0
+  },
+  "insights": {
+    "keyFindings": [
+      "Claude 3.5 Sonnet won with 7.5/10",
+      "Score difference: 0 points",
+      "Successfully analyzed 3/3 models",
+      "Used LLM-as-a-Judge evaluation with GPT-4o"
+    ],
+    "recommendations": [
+      "Consider A/B testing top performing hooks",
+      "Focus on emotional triggers for better engagement",
+      "Test with your target audience",
+      "Review judge analysis for specific improvements"
+    ],
+    "performanceSummary": {
+      "highestScore": 7.5,
+      "lowestScore": 6.8,
+      "averageScore": 7.266666666666667,
+      "consistencyScore": 8.5,
+      "evaluationMethod": "LLM-as-a-Judge",
+      "judgeModel": "GPT-4o"
+    }
+  },
+  "rawJudgeResponses": null,
+  "judgePrompts": null
+}

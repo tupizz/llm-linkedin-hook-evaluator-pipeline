@@ -1,0 +1,814 @@
+{
+  "timestamp": "2025-08-05T21:41:20.809Z",
+  "exportVersion": "1.0",
+  "metadata": {
+    "postIdea": "Building scalable systems is more about people than code.",
+    "industry": "technology, marketing",
+    "targetAudience": "intermediate",
+    "contentType": "tip",
+    "selectedModels": [
+      "gpt4o",
+      "gpt4o-mini"
+    ],
+    "analysisOptions": [
+      "semantic",
+      "psychological",
+      "engagement"
+    ]
+  },
+  "results": {
+    "gpt4o": {
+      "model": "GPT-4o",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "Unlock Growth: Why Your Team Beats Any Algorithm",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 6.6,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Unlock Growth' is compelling and suggests a benefit, while 'Your Team Beats Any Algorithm' creates curiosity by challenging the norm.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook evokes curiosity and excitement by suggesting a human advantage over technology, which can be intriguing for the audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or notable achievements.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and easy to understand, clearly contrasting team dynamics with algorithms.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals in technology and marketing who are interested in team dynamics and growth strategies.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 6,
+                "reasoning": "While the hook suggests a benefit, it lacks a clear promise of actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Compelling and curiosity-inducing",
+              "Clear and concise messaging",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not clearly promise actionable insights"
+            ],
+            "recommendations": [
+              "Incorporate a personal story or achievement to enhance credibility.",
+              "Include a hint of actionable insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a personal story or achievement to enhance credibility.",
+            "Include a hint of actionable insights to increase perceived value."
+          ]
+        },
+        {
+          "hook": "92% of Success: The People Behind the Code",
+          "wordCount": 8,
+          "totalScore": 7.3,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase '92% of Success' is intriguing and suggests a significant insight, which captures attention effectively.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook creates curiosity about the people behind success, but lacks a strong emotional trigger like fear or excitement.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 6,
+                "reasoning": "The hook implies authority by suggesting a large percentage of success, but lacks specific credentials or recognizable figures.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, making it easy to understand the focus on people behind success.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The focus on 'people behind the code' is relevant to tech professionals interested in team dynamics and success factors.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests valuable insights, it doesn't explicitly promise actionable steps or information.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Intriguing percentage that captures attention",
+              "Clear and concise message"
+            ],
+            "weaknesses": [
+              "Lacks specific emotional triggers",
+              "Does not explicitly promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific figure or authority to enhance social proof",
+              "Add a hint of actionable insights to increase perceived value"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific figure or authority to enhance social proof",
+            "Add a hint of actionable insights to increase perceived value"
+          ]
+        },
+        {
+          "hook": "Surprising Truth: Tech Giants Prioritize People Over Software",
+          "wordCount": 8,
+          "totalScore": 7.1,
+          "basicScore": 6,
+          "explanation": "Strengths: optimal length, includes specific results/data. Areas for improvement: lacks emotion.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Surprising Truth' effectively captures attention and creates curiosity by suggesting unexpected information.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and surprise by implying a counterintuitive idea about tech giants prioritizing people over software.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks direct references to authority or credibility, such as specific companies or experts.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, making it easy to understand at a glance.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals in technology and marketing, addressing a common interest in corporate priorities.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 4,
+                "reasoning": "The hook does not explicitly promise actionable insights or valuable information, focusing more on a surprising statement.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Captures attention with a surprising statement",
+              "Clear and concise messaging",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to a specific tech giant or expert to enhance credibility.",
+              "Suggest a potential takeaway or insight to increase actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a specific tech giant or expert to enhance credibility.",
+            "Suggest a potential takeaway or insight to increase actionability."
+          ]
+        },
+        {
+          "hook": "Urgent Insight: Your Code is Only 10% of the Solution",
+          "wordCount": 10,
+          "totalScore": 7.1,
+          "basicScore": 6.8,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The phrase 'Urgent Insight' and the claim that 'Your Code is Only 10% of the Solution' immediately captures attention by challenging a common assumption, creating curiosity.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The hook triggers curiosity and a slight sense of urgency by suggesting that coding is a minor part of a larger picture, which can surprise the audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook lacks explicit authority or credibility indicators, such as personal experience or industry validation.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is concise and clear, effectively communicating the main idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to the technology and marketing audience, especially those interested in understanding the broader aspects of their work beyond coding.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While the hook suggests a broader perspective, it does not explicitly promise actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Captures attention with a challenging statement.",
+              "Clear and concise message."
+            ],
+            "weaknesses": [
+              "Lacks explicit social proof or authority.",
+              "Does not clearly promise actionable insights."
+            ],
+            "recommendations": [
+              "Include a reference to authority or experience to enhance credibility.",
+              "Suggest specific insights or actions to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to authority or experience to enhance credibility.",
+            "Suggest specific insights or actions to increase perceived value."
+          ]
+        },
+        {
+          "hook": "Building Systems? Focus on People, Not Just Code",
+          "wordCount": 8,
+          "totalScore": 6.5,
+          "basicScore": 6.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention by challenging a common focus in tech, suggesting a shift from code to people.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "It evokes curiosity but lacks strong emotional triggers like surprise or excitement.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or social validation, missing an opportunity to enhance credibility.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the main idea in few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to tech professionals interested in system building and team dynamics.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a focus shift, it lacks a clear promise of actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to tech professionals"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority"
+            ],
+            "recommendations": [
+              "Incorporate a personal story or statistic to enhance emotional impact and social proof.",
+              "Include a hint of actionable insights to increase perceived value."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a personal story or statistic to enhance emotional impact and social proof.",
+            "Include a hint of actionable insights to increase perceived value."
+          ]
+        }
+      ],
+      "averageScore": 7.1,
+      "basicAverageScore": 6.5,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Compelling and curiosity-inducing",
+          "Clear and concise messaging",
+          "Relevant to the target audience"
+        ],
+        "weaknesses": [
+          "Lacks explicit social proof",
+          "Does not clearly promise actionable insights",
+          "Lacks specific emotional triggers"
+        ]
+      },
+      "executionTime": 3271,
+      "tokensUsed": 290,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    },
+    "gpt4o-mini": {
+      "model": "GPT-4o Mini",
+      "provider": "openai",
+      "hooks": [
+        {
+          "hook": "80% of success is how you treat your team!",
+          "wordCount": 9,
+          "totalScore": 5.6,
+          "basicScore": 7.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 6,
+                "reasoning": "The statement is somewhat attention-grabbing due to its bold claim about success, but lacks a specific or unique angle that would make it stand out more.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 5,
+                "reasoning": "The hook suggests a positive outcome but doesn't evoke strong emotions like surprise or excitement. It lacks a personal or dramatic element.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The statement lacks authority or credibility as it doesn't reference any specific experience, data, or authoritative source.",
+                "confidence": 8
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 8,
+                "reasoning": "The message is clear and concise, effectively communicating the idea in a straightforward manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 7,
+                "reasoning": "The content is relevant to professionals interested in team dynamics and success, but could be more tailored to the technology and marketing sectors.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 3,
+                "reasoning": "The statement does not promise actionable insights or specific information that the audience can apply.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to professional success"
+            ],
+            "weaknesses": [
+              "Lacks emotional impact",
+              "No social proof or authority",
+              "Does not promise actionable insights"
+            ],
+            "recommendations": [
+              "Include a specific example or statistic to enhance credibility.",
+              "Add an emotional or surprising element to increase impact.",
+              "Provide a hint of actionable advice or a promise of insights to engage the audience further."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a specific example or statistic to enhance credibility.",
+            "Add an emotional or surprising element to increase impact.",
+            "Provide a hint of actionable advice or a promise of insights to engage the audience further."
+          ]
+        },
+        {
+          "hook": "Want to scale? Focus more on people, less on code!",
+          "wordCount": 10,
+          "totalScore": 6.65,
+          "basicScore": 6.3,
+          "explanation": "Strengths: optimal length.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook is concise and presents a contrast between focusing on people versus code, which can pique curiosity.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook suggests a shift in focus that may surprise some, but it lacks a strong emotional trigger.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility; it lacks references to experience or success stories.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to tech and marketing professionals interested in scaling, aligning well with the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook implies a strategic focus but does not promise specific actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks emotional impact",
+              "No social proof or authority"
+            ],
+            "recommendations": [
+              "Include a statistic or personal success story to enhance social proof.",
+              "Add a specific actionable insight to increase actionability promise."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or personal success story to enhance social proof.",
+            "Add a specific actionable insight to increase actionability promise."
+          ]
+        },
+        {
+          "hook": "The biggest obstacle to growth? Ignoring your team's needs.",
+          "wordCount": 9,
+          "totalScore": 6.7,
+          "basicScore": 6.9,
+          "explanation": "Strengths: optimal length, highly relevant for LinkedIn, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention by addressing a common obstacle in growth, which can pique curiosity among professionals.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "It triggers a mild emotional response by highlighting a potential oversight, but lacks strong emotional language.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage authority or credibility; it lacks references to expertise or experience.",
+                "confidence": 6
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point in a brief manner.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The topic is relevant to professionals in technology and marketing who are focused on team dynamics and growth.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "The hook implies a problem but does not promise specific actionable insights or solutions.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No social proof or authority"
+            ],
+            "recommendations": [
+              "Include a statistic or quote from an expert to enhance credibility",
+              "Use more emotionally charged language to increase impact",
+              "Suggest a potential solution or insight to improve actionability"
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a statistic or quote from an expert to enhance credibility",
+            "Use more emotionally charged language to increase impact",
+            "Suggest a potential solution or insight to improve actionability"
+          ]
+        },
+        {
+          "hook": "Stop chasing code! Start investing in your people today!",
+          "wordCount": 9,
+          "totalScore": 7.1,
+          "basicScore": 6.5,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 8,
+                "reasoning": "The hook uses a strong contrast between 'chasing code' and 'investing in people,' which is intriguing and captures attention.",
+                "confidence": 9
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 7,
+                "reasoning": "The phrase 'Stop chasing code!' can evoke a sense of urgency and curiosity, but lacks a strong emotional trigger.",
+                "confidence": 8
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 4,
+                "reasoning": "The hook does not leverage any authority or credibility; it lacks references to expertise or success stories.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the intended idea in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The hook is relevant to tech and marketing professionals who may be overly focused on technical skills over people skills.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 5,
+                "reasoning": "While it suggests a shift in focus, it does not promise specific actionable insights or steps.",
+                "confidence": 7
+              }
+            ],
+            "strengths": [
+              "Attention-grabbing contrast",
+              "Clear and concise message",
+              "Relevant to tech and marketing professionals"
+            ],
+            "weaknesses": [
+              "Lacks social proof",
+              "Limited emotional impact",
+              "No specific actionable promise"
+            ],
+            "recommendations": [
+              "Incorporate a statistic or authority figure to enhance social proof.",
+              "Add a specific benefit or outcome to increase actionability.",
+              "Consider using a more emotionally charged language to enhance impact."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Incorporate a statistic or authority figure to enhance social proof.",
+            "Add a specific benefit or outcome to increase actionability.",
+            "Consider using a more emotionally charged language to enhance impact."
+          ]
+        },
+        {
+          "hook": "Did you know? Effective teams scale 3x faster than tech alone!",
+          "wordCount": 11,
+          "totalScore": 6.6,
+          "basicScore": 7.7,
+          "explanation": "Strengths: optimal length, includes specific results/data.",
+          "judgeAnalysis": {
+            "criteriaBreakdown": [
+              {
+                "criterion": "ATTENTION_GRABBING",
+                "score": 7,
+                "reasoning": "The hook captures attention with a surprising statistic about team effectiveness, but lacks a personal or dramatic element to maximize curiosity.",
+                "confidence": 8
+              },
+              {
+                "criterion": "EMOTIONAL_IMPACT",
+                "score": 6,
+                "reasoning": "The hook generates mild curiosity and surprise but doesn't evoke strong emotions like excitement or fear.",
+                "confidence": 7
+              },
+              {
+                "criterion": "SOCIAL_PROOF",
+                "score": 5,
+                "reasoning": "The hook lacks explicit authority or credibility references, such as expert opinions or data sources.",
+                "confidence": 7
+              },
+              {
+                "criterion": "CLARITY_AND_BREVITY",
+                "score": 9,
+                "reasoning": "The message is clear and concise, effectively communicating the main point in a few words.",
+                "confidence": 9
+              },
+              {
+                "criterion": "RELEVANCE_TO_AUDIENCE",
+                "score": 8,
+                "reasoning": "The content is relevant to professionals interested in team dynamics and technology, aligning well with the target audience.",
+                "confidence": 8
+              },
+              {
+                "criterion": "ACTIONABILITY_PROMISE",
+                "score": 4,
+                "reasoning": "The hook does not promise specific actionable insights or steps, limiting its potential to drive engagement.",
+                "confidence": 6
+              }
+            ],
+            "strengths": [
+              "Clear and concise message",
+              "Relevant to the target audience"
+            ],
+            "weaknesses": [
+              "Lacks strong emotional impact",
+              "No explicit social proof or authority",
+              "Limited promise of actionable insights"
+            ],
+            "recommendations": [
+              "Include a reference to a study or expert to enhance credibility.",
+              "Add a personal or dramatic element to increase emotional impact.",
+              "Suggest a specific action or insight to improve actionability."
+            ],
+            "confidence": 8
+          },
+          "semanticScore": 0,
+          "engagementPrediction": 0,
+          "confidenceLevel": 80,
+          "recommendations": [
+            "Include a reference to a study or expert to enhance credibility.",
+            "Add a personal or dramatic element to increase emotional impact.",
+            "Suggest a specific action or insight to improve actionability."
+          ]
+        }
+      ],
+      "averageScore": 6.5,
+      "basicAverageScore": 7,
+      "strengthsAndWeaknesses": {
+        "strengths": [
+          "Clear and concise message",
+          "Relevant to professional success",
+          "Clear and concise message"
+        ],
+        "weaknesses": [
+          "Lacks emotional impact",
+          "No social proof or authority",
+          "Does not promise actionable insights"
+        ]
+      },
+      "executionTime": 2543,
+      "tokensUsed": 297,
+      "judgeMetadata": {
+        "evaluationMethod": "LLM-as-a-Judge",
+        "judgeModel": "gpt-4o",
+        "backupModel": "gpt-4o-mini",
+        "avgConfidence": 8
+      }
+    }
+  },
+  "comparison": {
+    "winner": "gpt4o",
+    "scoreDifference": 0.6,
+    "confidenceLevel": 85,
+    "modelRankings": [
+      {
+        "modelId": "gpt4o",
+        "score": 7.1
+      },
+      {
+        "modelId": "gpt4o-mini",
+        "score": 6.5
+      }
+    ],
+    "comparativeAnalysis": {
+      "winner": "gpt4o",
+      "reasoning": "Hook A is more effective because it directly addresses the target audience's interest in growth and scalability, emphasizing the importance of the team over algorithms. This aligns well with the context of valuing people over code. Hook B, while highlighting the importance of team treatment, lacks the direct connection to growth and scalability, making it less compelling for the target audience.",
+      "confidence": 0.85,
+      "scoreDifference": 1.6000000000000005
+    }
+  },
+  "analytics": {
+    "executionTime": 5814,
+    "modelsAnalyzed": 2,
+    "modelsFailed": 0
+  },
+  "insights": {
+    "keyFindings": [
+      "GPT-4o won with 7.1/10",
+      "Score difference: 0.6 points",
+      "Successfully analyzed 2/2 models",
+      "Used LLM-as-a-Judge evaluation with GPT-4o",
+      "Comparative analysis confidence: 0.85/10"
+    ],
+    "recommendations": [
+      "Consider A/B testing top performing hooks",
+      "Focus on emotional triggers for better engagement",
+      "Test with your target audience",
+      "Review judge analysis for specific improvements",
+      "Hook A is more effective because it directly addresses the target audience's interest in growth and scalability, emphasizing the importance of the team over algorithms. This aligns well with the context of valuing people over code. Hook B, while highlighting the importance of team treatment, lacks the direct connection to growth and scalability, making it less compelling for the target audience."
+    ],
+    "performanceSummary": {
+      "highestScore": 7.1,
+      "lowestScore": 6.5,
+      "averageScore": 6.8,
+      "consistencyScore": 8.5,
+      "evaluationMethod": "LLM-as-a-Judge",
+      "judgeModel": "GPT-4o",
+      "avgJudgeConfidence": 8
+    }
+  },
+  "rawJudgeResponses": null,
+  "judgePrompts": null
+}
