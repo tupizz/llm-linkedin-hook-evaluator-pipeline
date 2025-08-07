@@ -212,7 +212,7 @@ export class PipelineService {
     modelId: string,
     progressTracker: ProgressTracker
   ): Promise<any[]> {
-    const { postIdea, industry, targetAudience } = requestData;
+    const { postIdea, industry, targetAudience, focusSkills } = requestData;
 
     // Process all hooks concurrently
     const hookPromises = hooks.map(async (hook, index) => {
@@ -225,6 +225,7 @@ export class PipelineService {
           postIdea,
           industry,
           targetAudience,
+          focusSkills,
         });
 
         return {

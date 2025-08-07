@@ -74,10 +74,7 @@ export class LLMJudge {
   private judgeModelId: string;
   private backupModelId: string;
 
-  constructor(
-    judgeModel: string = "gpt4o",
-    backupModel: string = "gpt4o-mini"
-  ) {
+  constructor(judgeModel: string = "gpt-5", backupModel: string = "gpt-4.1") {
     this.judgeModelId = judgeModel;
     this.backupModelId = backupModel;
   }
@@ -140,39 +137,62 @@ export class LLMJudge {
       postIdea: string;
       industry?: string;
       targetAudience?: string;
+      focusSkills?: string[];
     }
   ): Promise<ComprehensiveJudgeResult> {
+    // Define base criteria with dynamic weighting based on focus skills
+    const { focusSkills = [] } = context;
+    const isFocusSkill = (skill: string) => focusSkills.includes(skill);
+
+    // Calculate dynamic weights: focus skills get higher weight, others get proportionally less
+    const focusSkillCount = focusSkills.length;
+    const focusSkillWeight = focusSkillCount > 0 ? 0.6 / focusSkillCount : 0.3; // 60% split among focus skills
+    const regularSkillWeight =
+      focusSkillCount > 0 ? 0.4 / (6 - focusSkillCount) : 0.15; // 40% for others
+
     const linkedInCriteria: JudgeEvaluationCriteria[] = [
       {
         criterion: "attention_grabbing",
         description:
-          "Does the hook immediately capture attention and create curiosity? (Maps to Charisma)",
-        weight: 0.25,
+          "Does the hook leverage Information Gap Theory to create curiosity? Look for contrarian statements, incomplete information, or unexpected claims that make people want to know more.",
+        weight: isFocusSkill("attention_grabbing")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
             "I made $50K in 30 days using this LinkedIn strategy nobody talks about",
             "My biggest client ghosted me. Here's what I learned about follow-ups.",
             "The email that got me fired also got me my dream job",
+            "2025: Let AI be your B2B personal brand manager.",
+            "3 data-backed AI tweaks to double B2B profile inquiries.",
+            "Stop polishing logos; AI-guided voices win B2B trust now.",
           ],
           poor: [
             "Here are some LinkedIn tips and best practices for professionals",
             "Let's dive deep into the importance of networking in today's digital landscape",
             "Thrilled to share some insights on business growth and thought leadership",
+            "Excited to announce my thoughts on leveraging synergistic solutions",
+            "Passionate about sharing various methodologies for optimal outcomes",
           ],
         },
       },
       {
         criterion: "emotional_impact",
         description:
-          "Does the hook trigger strong emotional responses (surprise, curiosity, fear, excitement)? (Maps to Empathy)",
-        weight: 0.2,
+          "Does the hook trigger Emotional Contagion via Mirror Neurons? Look for personal stories, relatable emotions, vulnerability, or transformational experiences that create emotional resonance.",
+        weight: isFocusSkill("emotional_impact")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
             "The mistake that cost me $100K in my first startup",
             "I was 2 weeks away from bankruptcy when this happened",
             "My boss said I'd never succeed. I just bought his company.",
+            "I was wrong: AI builds trust, not noise, in 2025.",
+            "Most profiles sell. In 2025, leaders teach with AI.",
+            "Last chance: Secure your AI-powered brand advantage before Q4.",
           ],
           poor: [
             "Starting a business can be challenging but rewarding in the long run",
@@ -184,14 +204,18 @@ export class LLMJudge {
       {
         criterion: "social_proof",
         description:
-          "Does it leverage authority, credibility, or social validation? (Maps to Authority)",
-        weight: 0.15,
+          "Does it leverage Cialdini's Authority Principle with credibility markers? Look for specific numbers, expert credentials, institutional references, or proven track records that establish immediate trust.",
+        weight: isFocusSkill("social_proof")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
             "After 10 years as a Google PM, here's what I learned about product launches",
             "Used by 500+ Fortune 500 companies, this framework changed everything",
             "The strategy that helped me scale 3 startups to 8-figure exits",
+            "After 150 B2B audits, this AI branding playbook converts.",
+            "3 data-backed AI tweaks to double B2B profile inquiries.",
           ],
           poor: [
             "I think this approach might work based on my limited experience",
@@ -203,8 +227,10 @@ export class LLMJudge {
       {
         criterion: "clarity_and_brevity",
         description:
-          "Is the message clear, concise, and easy to understand? (Maps to Wisdom)",
-        weight: 0.15,
+          "Does it apply Cognitive Load Theory for instant comprehension? Look for simple language, clear structure, and minimal mental processing required. Avoid jargon and complexity.",
+        weight: isFocusSkill("clarity_and_brevity")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
@@ -222,8 +248,10 @@ export class LLMJudge {
       {
         criterion: "relevance_to_audience",
         description:
-          "Is it relevant to the target LinkedIn professional audience? (Maps to Insight)",
-        weight: 0.15,
+          "Does it leverage the Self-Reference Effect for personal relevance? Look for specific audience callouts, role-specific pain points, or industry-relevant challenges that make the reader think 'this is about me'.",
+        weight: isFocusSkill("relevance_to_audience")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
@@ -241,8 +269,10 @@ export class LLMJudge {
       {
         criterion: "actionability_promise",
         description:
-          "Does it promise actionable insights or valuable information? (Maps to Power)",
-        weight: 0.1,
+          "Does it apply Goal Gradient Hypothesis with specific, achievable outcomes? Look for concrete promises, clear timelines, measurable results, or step-by-step processes that signal clear value.",
+        weight: isFocusSkill("actionability_promise")
+          ? focusSkillWeight
+          : regularSkillWeight,
         scale: "score_1_10",
         examples: {
           excellent: [
@@ -322,7 +352,6 @@ Your response will be automatically structured as JSON.
         model,
         messages: [{ role: "user", content: comparePrompt }],
         schema: comparativeResultSchema,
-        temperature: 0.1,
       });
 
       const comparison = result.object;
@@ -400,21 +429,22 @@ ${i + 1}. ${c.criterion.toUpperCase()} (Weight: ${(c.weight * 100).toFixed(0)}%)
   )
   .join("")}
 
-RED FLAGS TO PENALIZE HEAVILY (automatic score reduction):
-• Corporate jargon: "synergistic", "paradigms", "leverage", "ecosystem", "touch base"
-• Vague phrases: "thoughts on", "dive deep", "let's explore", "various methods"
-• Overused LinkedIn-speak: "thrilled to share", "excited to announce", "passionate about"
-• Generic openings: "here are some tips", "wanted to share", "let me tell you"
-• Humble bragging without substance: "blessed", "grateful", "honored" without context
-
-INSTRUCTIONS:
+ADVANCED SCORING INSTRUCTIONS FOR HIGH-QUALITY MODELS:
 1. Evaluate each criterion independently with specific reasoning
-2. Provide a numerical score based on the specified scale  
-3. Give your confidence level (1-10) for each evaluation, don't be too hard on the score, be fair and balanced.
-4. Identify specific strengths and weaknesses
-5. Provide actionable recommendations
-6. Heavily penalize hooks containing red flag jargon or patterns
-7. Heavily benefit and add points to hooks that are good for the evaluation criteria.
+2. Use the FULL scoring range (1-10) - don't cluster around 5-7
+3. REWARD sophisticated techniques: Score 8-10 for advanced copywriting (vulnerability, contrarian takes, teaching approach)
+4. RECOGNIZE subtle authority: "150 B2B audits" = credibility, "data-backed" = expertise
+5. VALUE emotional sophistication: "I was wrong" = vulnerability, "Leaders teach" = positioning
+6. PENALIZE only true mediocrity: Score 3-5 for generic or templated content
+7. Give your confidence level (1-10) for each evaluation
+8. Identify specific strengths and weaknesses with concrete examples
+9. Provide actionable recommendations for improvement, don't be too generic
+
+CRITICAL SCORING CONSTRAINTS:
+- All individual criterion scores MUST be between 1-10 (no exceptions)
+- Overall score MUST be between 1-10 (calculate weighted average, then cap at 10)
+- Excellence indicators should influence the score within the 1-10 range, not exceed it
+- Red flags should lower scores within the 1-10 range, not go below 1
 
 Your response will be automatically structured as JSON with the required format.`;
   }
@@ -431,153 +461,31 @@ Your response will be automatically structured as JSON with the required format.
         model,
         messages: [{ role: "user", content: prompt }],
         schema: comprehensiveJudgeResultSchema,
-        temperature: 0.1,
       });
 
-      return {
+      // Ensure scores are within valid ranges (1-10)
+      const sanitizedResult = {
         ...result.object,
+        overallScore: Math.max(1, Math.min(10, result.object.overallScore)),
+        criteriaResults: result.object.criteriaResults.map((cr) => ({
+          ...cr,
+          score: Math.max(1, Math.min(10, cr.score)),
+          confidence: Math.max(1, Math.min(10, cr.confidence)),
+        })),
         validationFlags: {
           coherentReasoning: true,
           appropriateScoring: true,
           consistentWithCriteria: true,
         },
       };
+
+      return sanitizedResult;
     } catch (error) {
       console.error(`Error with judge model ${modelId}:`, error);
       // Fallback to text generation if structured output fails
       console.log("Falling back to text generation...");
       throw error;
     }
-  }
-
-  private parseJudgeResponse(response: string): ComprehensiveJudgeResult {
-    try {
-      // Clean the response to extract JSON only
-      const jsonMatch = response.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        throw new Error("No JSON found in response");
-      }
-
-      const cleanedResponse = jsonMatch[0];
-      const parsed = JSON.parse(cleanedResponse);
-
-      return {
-        overallScore: parsed.overallScore || 5,
-        criteriaResults: parsed.criteriaResults || [],
-        metaAnalysis: {
-          strengths: parsed.metaAnalysis?.strengths || [],
-          weaknesses: parsed.metaAnalysis?.weaknesses || [],
-          recommendations: parsed.metaAnalysis?.recommendations || [],
-        },
-        judgeConfidence: parsed.judgeConfidence || 5,
-        validationFlags: {
-          coherentReasoning: true,
-          appropriateScoring: true,
-          consistentWithCriteria: true,
-        },
-      };
-    } catch (error) {
-      console.error("Error parsing judge JSON response:", error);
-      console.error("Raw response:", response);
-
-      // Fallback parsing for non-JSON responses
-      return this.fallbackParseJudgeResponse(response);
-    }
-  }
-
-  private fallbackParseJudgeResponse(
-    response: string
-  ): ComprehensiveJudgeResult {
-    // Parse the structured response from the judge
-    const criteriaResults: JudgeResult[] = [];
-    let overallScore = 0;
-    const metaAnalysis = {
-      strengths: [] as string[],
-      weaknesses: [] as string[],
-      recommendations: [] as string[],
-    };
-    let judgeConfidence = 8;
-
-    try {
-      // Extract criterion scores
-      const criterionMatches = response.match(
-        /CRITERION_SCORES:([\s\S]*?)OVERALL_ANALYSIS:/
-      );
-      if (criterionMatches) {
-        const criteriaSection = criterionMatches[1];
-        const lines = criteriaSection.split("\n").filter((line) => line.trim());
-
-        for (const line of lines) {
-          const match = line.match(
-            /(\w+):\s*(\d+(?:\.\d+)?)\s*\|\s*(.*?)\s*\|\s*(\d+)/
-          );
-          if (match) {
-            criteriaResults.push({
-              criterion: match[1],
-              score: parseFloat(match[2]),
-              reasoning: match[3],
-              confidence: parseInt(match[4]),
-            });
-          }
-        }
-      }
-
-      // Extract overall score
-      const overallMatch = response.match(/OVERALL_SCORE:\s*(\d+(?:\.\d+)?)/);
-      if (overallMatch) {
-        overallScore = parseFloat(overallMatch[1]);
-      }
-
-      // Extract meta analysis
-      const strengthsMatch = response.match(
-        /STRENGTHS:\s*([\s\S]*?)(?=WEAKNESSES:|$)/
-      );
-      const weaknessesMatch = response.match(
-        /WEAKNESSES:\s*([\s\S]*?)(?=RECOMMENDATIONS:|$)/
-      );
-      const recommendationsMatch = response.match(
-        /RECOMMENDATIONS:\s*([\s\S]*?)(?=OVERALL_SCORE:|$)/
-      );
-
-      if (strengthsMatch) {
-        metaAnalysis.strengths = strengthsMatch[1]
-          .split(/[,\n-]/)
-          .map((s) => s.trim())
-          .filter(Boolean);
-      }
-      if (weaknessesMatch) {
-        metaAnalysis.weaknesses = weaknessesMatch[1]
-          .split(/[,\n-]/)
-          .map((s) => s.trim())
-          .filter(Boolean);
-      }
-      if (recommendationsMatch) {
-        metaAnalysis.recommendations = recommendationsMatch[1]
-          .split(/[,\n-]/)
-          .map((s) => s.trim())
-          .filter(Boolean);
-      }
-
-      // Extract judge confidence
-      const confidenceMatch = response.match(/JUDGE_CONFIDENCE:\s*(\d+)/);
-      if (confidenceMatch) {
-        judgeConfidence = parseInt(confidenceMatch[1]);
-      }
-    } catch (error) {
-      console.error("Error parsing judge response:", error);
-    }
-
-    return {
-      overallScore,
-      criteriaResults,
-      metaAnalysis,
-      judgeConfidence,
-      validationFlags: {
-        coherentReasoning: true,
-        appropriateScoring: true,
-        consistentWithCriteria: true,
-      },
-    };
   }
 
   private async validateJudgeResult(
@@ -590,21 +498,38 @@ Your response will be automatically structured as JSON with the required format.
     consistentWithCriteria: boolean;
   }> {
     // Quick validation check using backup model with structured output
+    const criteriaNames = criteria.map((c) => c.criterion).join(", ");
+    const criteriaResults = result.criteriaResults
+      .map((cr) => `${cr.criterion}: ${cr.score}/10`)
+      .join(", ");
+
     const validationPrompt = `As a quality assurance evaluator, validate this LinkedIn hook evaluation:
 
 CONTENT: "${content}"
 OVERALL SCORE: ${result.overallScore}/10
+CRITERIA SCORES: ${criteriaResults}
 STRENGTHS: ${result.metaAnalysis.strengths.join(", ")}
 WEAKNESSES: ${result.metaAnalysis.weaknesses.join(", ")}
 
-VALIDATION CRITERIA:
-1. Is the overall score (${
+EXPECTED CRITERIA: ${criteriaNames}
+CRITERIA DESCRIPTIONS: ${criteria
+      .map((c) => `${c.criterion}: ${c.description}`)
+      .join("; ")}
+
+VALIDATION CHECKS:
+1. appropriateScoring: Is the overall score (${
       result.overallScore
     }/10) reasonable for this content quality?
-2. Do the identified strengths actually match what's present in the content?
-3. Is the reasoning coherent and well-justified?
+2. consistentWithCriteria: Are all required criteria (${criteriaNames}) properly evaluated and do the scores align with their descriptions?
+3. coherentReasoning: Do the identified strengths match the content and is the reasoning well-justified?
 
-Respond with true/false for each validation check and optionally explain any concerns.`;
+Respond ONLY with a JSON object containing these exact field names:
+{
+  "appropriateScoring": boolean,
+  "consistentWithCriteria": boolean, 
+  "coherentReasoning": boolean,
+  "explanation": "optional brief explanation"
+}`;
 
     try {
       const modelConfig = validateModelConfig(this.backupModelId);
@@ -614,7 +539,6 @@ Respond with true/false for each validation check and optionally explain any con
         model,
         messages: [{ role: "user", content: validationPrompt }],
         schema: validationResultSchema,
-        temperature: 0.1,
       });
 
       return {
@@ -655,9 +579,20 @@ Respond with true/false for each validation check and optionally explain any con
     criteria: JudgeEvaluationCriteria[],
     context: any
   ): Promise<ComprehensiveJudgeResult> {
-    // Simple fallback evaluation using backup model
+    // Simple fallback evaluation using backup model with actual criteria
     try {
-      const simplePrompt = `Rate this content 1-10: "${content}". Consider: attention-grabbing, clarity, relevance. Just give: SCORE: [number] REASON: [brief reason]`;
+      const criteriaList = criteria
+        .map((c) => `${c.criterion}: ${c.description}`)
+        .join("; ");
+      const simplePrompt = `Rate this ${
+        context.contentType || "content"
+      }: "${content}"
+
+CRITERIA TO EVALUATE:
+${criteriaList}
+
+For each criterion, give a score 1-10. Then provide an overall score.
+Format: CRITERION_NAME: [score] | OVERALL: [score] | REASON: [brief reason]`;
 
       const modelConfig = validateModelConfig(this.backupModelId);
       const model = getModelProvider(modelConfig);
@@ -669,18 +604,40 @@ Respond with true/false for each validation check and optionally explain any con
       });
 
       const result = response.text;
-      const scoreMatch = result.match(/SCORE:\s*(\d+)/);
+      const overallMatch = result.match(/OVERALL:\s*(\d+)/);
       const reasonMatch = result.match(/REASON:\s*(.*)/);
 
+      // Try to extract individual criterion scores
+      const criteriaResults: JudgeResult[] = criteria.map((criterion) => {
+        const scoreMatch = result.match(
+          new RegExp(`${criterion.criterion}:\\s*(\\d+)`, "i")
+        );
+        return {
+          criterion: criterion.criterion,
+          score: scoreMatch ? parseInt(scoreMatch[1]) : 5,
+          reasoning: reasonMatch ? reasonMatch[1] : "Fallback evaluation",
+          confidence: 5,
+        };
+      });
+
       return {
-        overallScore: scoreMatch ? parseInt(scoreMatch[1]) : 5,
-        criteriaResults: [],
+        overallScore: Math.max(
+          1,
+          Math.min(10, overallMatch ? parseInt(overallMatch[1]) : 5)
+        ),
+        criteriaResults: criteriaResults.map((cr) => ({
+          ...cr,
+          score: Math.max(1, Math.min(10, cr.score)),
+          confidence: Math.max(1, Math.min(10, cr.confidence)),
+        })),
         metaAnalysis: {
           strengths: [reasonMatch ? reasonMatch[1] : "Basic evaluation"],
-          weaknesses: ["Fallback evaluation used"],
-          recommendations: ["Retry with main judge model"],
+          weaknesses: ["Fallback evaluation used - limited analysis"],
+          recommendations: [
+            "Retry with main judge model for detailed evaluation",
+          ],
         },
-        judgeConfidence: 5,
+        judgeConfidence: 4,
         validationFlags: {
           coherentReasoning: false,
           appropriateScoring: false,
@@ -689,10 +646,23 @@ Respond with true/false for each validation check and optionally explain any con
       };
     } catch (error) {
       console.error("Fallback evaluation failed:", error);
+
+      // Ultimate fallback with basic criteria scoring
+      const criteriaResults: JudgeResult[] = criteria.map((criterion) => ({
+        criterion: criterion.criterion,
+        score: 5,
+        reasoning: "Error in fallback evaluation",
+        confidence: 1,
+      }));
+
       return {
         overallScore: 5,
-        criteriaResults: [],
-        metaAnalysis: { strengths: [], weaknesses: [], recommendations: [] },
+        criteriaResults,
+        metaAnalysis: {
+          strengths: ["Content evaluated"],
+          weaknesses: ["Evaluation system error"],
+          recommendations: ["Check evaluation system configuration"],
+        },
         judgeConfidence: 1,
         validationFlags: {
           coherentReasoning: false,

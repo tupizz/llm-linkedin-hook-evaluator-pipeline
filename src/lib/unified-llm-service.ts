@@ -15,16 +15,34 @@ export interface ModelConfig {
   model: string;
   supported: boolean;
   maxTokens?: number;
+  new?: boolean;
 }
 
 // Unified model configurations with both OpenAI and Anthropic
 export const UNIFIED_MODEL_CONFIGS: ModelConfig[] = [
   // OpenAI Models - Only newer models support structured outputs
   {
+    id: "gpt-5",
+    name: "GPT-5",
+    provider: "openai",
+    model: "gpt-5",
+    supported: true,
+    new: true,
+    maxTokens: 400000,
+  },
+  {
     id: "gpt4o",
     name: "GPT-4o",
     provider: "openai",
     model: "gpt-4o",
+    supported: true,
+    maxTokens: 4096,
+  },
+  {
+    id: "gpt-4.1",
+    name: "GPT-4.1",
+    provider: "openai",
+    model: "gpt-4.1",
     supported: true,
     maxTokens: 4096,
   },
@@ -41,14 +59,6 @@ export const UNIFIED_MODEL_CONFIGS: ModelConfig[] = [
     name: "O4 Mini",
     provider: "openai",
     model: "o4-mini",
-    supported: true,
-    maxTokens: 4096,
-  },
-  {
-    id: "gpt-4.1",
-    name: "GPT-4.1",
-    provider: "openai",
-    model: "gpt-4.1",
     supported: true,
     maxTokens: 4096,
   },
@@ -109,25 +119,72 @@ export function getContextualPrompt(
     ? `\nIndustry context: ${industry} sector`
     : "";
 
-  // Map focus skills to human-readable descriptions
+  // Science-backed skill descriptions with psychological principles
   const skillDescriptions: Record<string, string> = {
-    attention_grabbing: "attention-grabbing and curiosity-driven",
-    emotional_impact: "emotionally impactful and empathy-focused",
-    social_proof: "authority-based with credibility markers",
-    clarity_and_brevity: "clear, concise, and easily understandable",
-    relevance_to_audience:
-      "highly relevant and insightful for the target audience",
-    actionability_promise: "promising specific actionable outcomes",
+    attention_grabbing: "curiosity-triggering (Information Gap Theory - Loewenstein)",
+    emotional_impact: "emotionally contagious (Mirror Neurons & Emotional Contagion)",
+    social_proof: "authority-driven with credibility markers (Cialdini's Authority Principle)",
+    clarity_and_brevity: "cognitively simple and instantly processable (Cognitive Load Theory)",
+    relevance_to_audience: "personally relevant and self-referential (Self-Reference Effect)",
+    actionability_promise: "outcome-specific with clear achievability (Goal Gradient Hypothesis)",
   };
 
+  // Detailed science-backed templates for each skill
+  const skillTemplates: Record<string, string[]> = {
+    attention_grabbing: [
+      "Most people do [X]. Here's what they should do instead.",
+      "You won't believe how [X] affects [Y].",
+      "What you don't know about [topic] could [consequence]."
+    ],
+    emotional_impact: [
+      "I [emotional experience] when [situation]—then [transformation].",
+      "Imagine being [emotion] because [context].",
+      "[Name] never thought [thing] would happen. Then it did."
+    ],
+    social_proof: [
+      "Why [credible person/org] does [thing] differently.",
+      "Used by [X]% of [target group]—are you missing out?",
+      "Based on [institution] study, here's what we learned."
+    ],
+    clarity_and_brevity: [
+      "How to [achieve X] in [timeframe].",
+      "The fastest way to [result] without [pain point].",
+      "[Specific number] steps to [clear outcome]."
+    ],
+    relevance_to_audience: [
+      "[Target audience]: Here's what you're getting wrong about [topic].",
+      "If you're a [role], read this before [action].",
+      "This mistake costs [audience] [specific consequence] every [timeframe]."
+    ],
+    actionability_promise: [
+      "Double your [metric] in [X time] using [method].",
+      "Get [specific result] with these [X] steps—starting today.",
+      "A simple checklist to [solve problem] in under [time]."
+    ]
+  };
+
+  // Generate detailed focus skills context with templates
   const focusSkillsContext =
     focusSkills && focusSkills.length > 0
       ? `\nPRIORITY FOCUS: Generate hooks that are especially ${focusSkills
           .map((skill) => skillDescriptions[skill] || skill)
-          .join(
-            ", "
-          )}. These aspects should be the strongest features of your hooks.`
-      : "";
+          .join(", ")}. These aspects should be the strongest features of your hooks.
+
+SCIENTIFIC FRAMEWORKS TO APPLY:
+${focusSkills
+  .map((skill) => {
+    const templates = skillTemplates[skill] || [];
+    return `• ${skill.toUpperCase()}: ${skillDescriptions[skill]}
+  Templates: ${templates.join(" | ")}`;
+  })
+  .join("\n")}`
+      : `\nAPPLY THESE SCIENTIFIC FRAMEWORKS:
+• INFORMATION GAP THEORY: Create curiosity gaps that make people want to know more
+• EMOTIONAL CONTAGION: Use emotional language that triggers mirror neuron responses  
+• AUTHORITY PRINCIPLE: Include credibility markers, data, or expert positioning
+• COGNITIVE LOAD THEORY: Keep language simple and instantly understandable
+• SELF-REFERENCE EFFECT: Make it personally relevant to the target audience
+• GOAL GRADIENT HYPOTHESIS: Promise specific, achievable outcomes`;
 
   return `You are an expert LinkedIn content strategist specializing in ${
     contextualModifiers[
@@ -190,7 +247,6 @@ export async function generateHooksWithModel(
         model,
         messages: [{ role: "user", content: prompt }],
         schema: hooksSchema,
-        temperature: 0.3,
       });
 
       hooks = result.object.hooks;
@@ -209,7 +265,6 @@ No additional text, explanations, or formatting. Just the JSON object with exact
       const result = await generateText({
         model,
         messages: [{ role: "user", content: enhancedPrompt }],
-        temperature: 0.3,
       });
 
       tokenUsage = result.usage?.totalTokens;
@@ -289,7 +344,6 @@ export async function streamHooksGeneration(
     const result = await streamText({
       model,
       messages: [{ role: "user", content: prompt }],
-      temperature: 0.7,
     });
 
     let fullText = "";

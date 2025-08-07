@@ -59,6 +59,7 @@ export function useHookGeneration(): HookGenerationState &
   const [targetAudience, setTargetAudience] = useState("intermediate");
   const [contentType, setContentType] = useState("tip");
   const [selectedModels, setSelectedModels] = useState<string[]>([
+    "gpt-5",
     "gpt4o",
     "gpt-4.1",
   ]);
@@ -201,7 +202,10 @@ export function useHookGeneration(): HookGenerationState &
                     const resultsData = await resultsResponse.json();
                     setResults(resultsData);
                   } catch (fetchError) {
-                    console.error("Failed to fetch results from blob:", fetchError);
+                    console.error(
+                      "Failed to fetch results from blob:",
+                      fetchError
+                    );
                     setCurrentStep("Failed to load results. Please try again.");
                   }
                 } else {
